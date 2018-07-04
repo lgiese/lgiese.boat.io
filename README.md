@@ -1,6 +1,6 @@
 ## LCRS mapServer
 
-[quakquak](file:///C:/Users/Laura/Documents/GitHub/lgiese.github.io/figures/lcrsmaprmd.html)
+[quakquak](./figures/lcrsmaprmd.html)
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
