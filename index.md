@@ -1,9 +1,7 @@
 ## The Unmanned Radio Telemetry Limno-Explorer (TURTLE)
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-library(mapview)
-library(leaflet)
+```
+hier soll irgendwann ein bild mit link hin
 ```
 
 
