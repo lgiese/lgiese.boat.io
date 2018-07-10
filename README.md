@@ -1,4 +1,4 @@
-## The Unmanned Radio Telemetry Limno-Explorer
+## The Unmanned Radio Telemetry Limno-Explorer (TURTLE)
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
