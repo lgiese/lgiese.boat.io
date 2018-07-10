@@ -1,23 +1,19 @@
 ### The Unmanned Radio Telemetry Limno-Explorer (TURTLE)
 
-```
 ## About the Project
-hier soll irgendwann ein bild mit link 
-```
-```
+hier soll irgendwann ein bild mit link hin
+
 ## Project Documentation
 ### Idea
 ### Methods
 ### Platform
 ### Sensors
 ### Result
-```
-```
+
 ## Gallery
-```
-```
+
 ## Who We Are
-```
+
 
 ```Markdown
 Syntax highlighted code block
