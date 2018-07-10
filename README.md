@@ -1,6 +1,4 @@
-## LCRS mapServer
-
-[quakquak](./figures/lcrsmaprmd.html)
+## The Unmanned Radio Telemetry Limno-Explorer
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
