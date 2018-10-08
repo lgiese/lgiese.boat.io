@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 34efc5c649ef1fe79d759a7b446b789e30813c74
 Editorial by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
@@ -28,6 +31,7 @@ Credits:
 
 	Other:
 		jQuery (jquery.com)
+<<<<<<< HEAD
 =======
 Editorial by HTML5 UP
 html5up.net | @ajlkn
@@ -59,4 +63,6 @@ Credits:
 	Other:
 		jQuery (jquery.com)
 >>>>>>> 66e596896fb4e395dc1b1e9787559669c09a1709
+=======
+>>>>>>> 34efc5c649ef1fe79d759a7b446b789e30813c74
 		Responsive Tools (github.com/ajlkn/responsive-tools)

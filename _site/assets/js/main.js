@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 34efc5c649ef1fe79d759a7b446b789e30813c74
 /*
 	Editorial by HTML5 UP
 	html5up.net | @ajlkn
@@ -260,6 +263,7 @@
 
 			});
 
+<<<<<<< HEAD
 =======
 /*
 	Editorial by HTML5 UP
@@ -523,4 +527,6 @@
 			});
 
 >>>>>>> 66e596896fb4e395dc1b1e9787559669c09a1709
+=======
+>>>>>>> 34efc5c649ef1fe79d759a7b446b789e30813c74
 })(jQuery);

@@ -71,7 +71,3 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
-<<<<<<< HEAD
-
-=======
->>>>>>> 66e596896fb4e395dc1b1e9787559669c09a1709
