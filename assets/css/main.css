@@ -1797,7 +1797,7 @@ input, select, textarea {
 	}
 
 	header.major > :last-child {
-		border-bottom: solid 3px #f56a6a;
+		border-bottom: solid 3px #2c82c9;
 		display: inline-block;
 		margin: 0 0 2em 0;
 		padding: 0 0.75em 0.5em 0;
@@ -2652,7 +2652,7 @@ input, select, textarea {
 			}
 
 				.features article .icon:before {
-					color: #f56a6a;
+					color: #2c82c9;
 					font-size: 2.75rem;
 					position: relative;
 					top: 0.05em;
@@ -3297,7 +3297,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		border-bottom: solid 5px #f56a6a;
+		border-bottom: solid 5px #2c82c9;
 		padding: 6em 0 1em 0;
 		position: relative;
 	}
@@ -3526,7 +3526,7 @@ input, select, textarea {
 				}
 
 				#menu ul a.opener:hover:before, #menu ul span.opener:hover:before {
-					color: #f56a6a;
+					color: #2c82c9;
 				}
 
 				#menu ul a.opener.active + ul, #menu ul span.opener.active + ul {
