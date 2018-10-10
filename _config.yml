@@ -15,15 +15,15 @@ phone: (716) 555-5555
 
 # Social settings
 500px_url:
-facebook_url:
-github_url:
-gitlab_url: https://gitlab.com/u/andrewbanchich
-googleplus_url: https://plus.google.com/u/0/+AndrewBanchich
-instagram_url: https://instagram.com
-linkedin_url: https://www.linkedin.com/in/andrew-banchich-a4ba1195
+facebook_url: https://www.facebook.com/GeographieMarburg/?__xts__[0]=68.ARByJXKgoGm67n00NuEP-DDyz0d4PSCu6Xyd6cmr2NkgpFWDaCtrxLNh8lVMlsMa4Msa_39XkkKgX0XEPqCUq8Mr5jsoskUMFNMKZ9vJXzNSS4DxY6TlBBuTyjWcbRQx0CzAQFwR5wkBcKY8CyRvfP5thquDOxNYPQl3YAfyf-SNVCAhVeeZ
+github_url: https://github.com/lgiese/lgiese.boat.io
+gitlab_url: 
+googleplus_url:
+instagram_url: 
+linkedin_url: 
 pinterest_url:
 slack_url:
-twitter_url: https://twitter.com/andrewbanchich
+twitter_url: 
 
 # Build settings
 markdown: kramdown
