@@ -1,73 +1,97 @@
-# TURTLE - The Unmanned Radio Telemetry Limno-Explorer
+---
+layout: default
+---
 
-## About the Project
+<!-- Section -->
+<section>
+	<header class="major">
+		<h2>Erat lacinia</h2>
+	</header>
+	<div class="features">
+		<article>
+			<span class="icon fa-diamond"></span>
+			<div class="content">
+				<h3>Portitor ullamcorper</h3>
+				<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+			</div>
+		</article>
+		<article>
+			<span class="icon fa-paper-plane"></span>
+			<div class="content">
+				<h3>Sapien veroeros</h3>
+				<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+			</div>
+		</article>
+		<article>
+			<span class="icon fa-rocket"></span>
+			<div class="content">
+				<h3>Quam lorem ipsum</h3>
+				<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+			</div>
+		</article>
+		<article>
+			<span class="icon fa-signal"></span>
+			<div class="content">
+				<h3>Sed magna finibus</h3>
+				<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+			</div>
+		</article>
+	</div>
+</section>
 
-We – a group of master students of Physical Geography and Geoarcheology of Philipps-University Marburg – want to
-
-- contribute to improve knowledge of the state of river- and lakebeds as well as riparian areas
-- facilitate excess to this knowledge for every citizen
-- introduce a cost-effective Do-it-Your-Self approach, how to take environmental data in this field
-- supply a simple technical guideline combined with basic informatic and UAV-based instructions
-
-by building the TURTLE-platform. This website shows our working procedure and explains how you can get on board! 
-
-Link to Abstract english german
-
-## Project Documentation
-
-### Idea
-image/link
-
-### Methods
-image/link
-
-### Platform
-image/link
-
-### Sensors
-image/link
-
-### Result
-image/link
-
-## Gallery
-image/link
-
-## Who We Are
-image/link
-
-
-
-Für weitere Dateien/Edits bitte nur dieses Format nehmen:
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/TLKoch/boat/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<!-- Section -->
+<section>
+	<header class="major">
+		<h2>Ipsum sed dolor</h2>
+	</header>
+	<div class="posts">
+		<article>
+			<a href="#" class="image"><img src="assets/images/pic01.jpg" alt="" /></a>
+			<h3>Interdum aenean</h3>
+			<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+			<ul class="actions">
+				<li><a href="#" class="button">More</a></li>
+			</ul>
+		</article>
+		<article>
+			<a href="#" class="image"><img src="assets/images/pic02.jpg" alt="" /></a>
+			<h3>Nulla amet dolore</h3>
+			<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+			<ul class="actions">
+				<li><a href="#" class="button">More</a></li>
+			</ul>
+		</article>
+		<article>
+			<a href="#" class="image"><img src="assets/images/pic03.jpg" alt="" /></a>
+			<h3>Tempus ullamcorper</h3>
+			<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+			<ul class="actions">
+				<li><a href="#" class="button">More</a></li>
+			</ul>
+		</article>
+		<article>
+			<a href="#" class="image"><img src="assets/images/pic04.jpg" alt="" /></a>
+			<h3>Sed etiam facilis</h3>
+			<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+			<ul class="actions">
+				<li><a href="#" class="button">More</a></li>
+			</ul>
+		</article>
+		<article>
+			<a href="#" class="image"><img src="assets/images/pic05.jpg" alt="" /></a>
+			<h3>Feugiat lorem aenean</h3>
+			<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+			<ul class="actions">
+				<li><a href="#" class="button">More</a></li>
+			</ul>
+		</article>
+		<article>
+			<a href="#" class="image"><img src="assets/images/pic06.jpg" alt="" /></a>
+			<h3>Amet varius aliquam</h3>
+			<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+			<ul class="actions">
+				<li><a href="#" class="button">More</a></li>
+			</ul>
+		</article>
+	</div>
+</section>
