@@ -11,6 +11,8 @@ title: Abstract
 <p>Currently only a few approaches exist, but they are bound to high costs, extremely time-consuming and therefore unsuited for far-reaching usage. To address those problems master students of Physical Geography and Geoarcheology of the Philipps-University Marburg started a guided self-based learning project. We propose a cost-effective approach for highly resoluted mapping of hydromorphology and structure quality of waterbodies. The constructed prototype of an autonomous boat is equipped with several sensors like a sonar, cameras and gps. The equipment can be extended easily by additional sensors. The remotely sensed data is being transferred to the web in real time and can be accessed by researchers as well as interested citizens. Furthermore, we target to develop a framework for generating a three-dimensional model of the waterbody ́s morphology and it ́s surroundings in terms of an R-package.</p>
 <p>The USV-project enhances existing knowledge about river and riparian ecosystems, which in turn is necessary for improving sustainable management strategies to ensure good water quality and ecology plus meeting all other requirements for rivers and lakes. At the same time the project implied practical teaching approach promises and has already shown a high learning effect on the participating junior researchers.</p>
 
+<hr class="major" />
+
 <h2>German</h2>
 
 <h3>UAV@Water: USV-MAR - ein autonomes Low-Budget Boot mit universal Sensorik für bathymetrische Analysen und Auenmonitoring</h3>
