@@ -3,8 +3,7 @@ layout: page
 title: Cameras
 ---
 
-
-Zur Untersuchung des sichbaren Spektrums oberhalb des Wassers soll MR TURTLE (The Unmanned Radio Telemetry Limnology-Explorer) mit einer Kamera an Deck ausgestattet werden. Da das Boot mit einem Raspberry Pi ausgestattet werden soll, wurde sich bereits im Vorfeld für die Raspberry Pi Camera V2.1 entschieden. Für die Kamera spricht zunächst der Preis, außerdem eine problemlose Einrichtung mittels Raspberry Pi.
+Zur Untersuchung des sichbaren Spektrums oberhalb des Wassers soll Mr. TURTLE (The Unmanned Radio Telemetry Limnology-Explorer) mit einer Kamera an Deck ausgestattet werden. Da das Boot mit einem Raspberry Pi ausgestattet werden soll, wurde sich bereits im Vorfeld für die Raspberry Pi Camera V2.1 entschieden. Für die Kamera spricht zunächst der Preis, außerdem eine problemlose Einrichtung mittels Raspberry Pi.
 
 Der folgende Eintrag erklärt die Einrichtung der Raspberry Pi Camera V2.1 und enthält ein Beispielskript zur automatischen Aufnahme von Bildern und eine Beschreibung zur Einrichtung eines Autostartskriptes (crontab).
 
@@ -81,3 +80,4 @@ Zur Bewegung der Kamera wurde zu Testzwecken eine bewegliche Halterung integrier
 Abb.: PIMORONI. Tech Treasure for Makers. "<https://shop.pimoroni.com/products/pan-tilt-hat?variant=33704345034>"
 
 Umfangreiche Anleitungen zur Verwendung finden sich unter <http://docs.pimoroni.com/pantilthat/#> und <https://github.com/pimoroni/pantilt-hat>
+
