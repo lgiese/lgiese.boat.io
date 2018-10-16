@@ -11,9 +11,10 @@ Auf dem Raspberry Pi wurde zunächst das kostenlose Betriebssystem der Raspberry
 
 Die Kamera wird an die am Raspberry vorgesehene CSI-Schnittstelle gesteckt.
 
-<img src="F:/Uni/Geo/_MA/Mikrofernerkundung/Camera Section/cam_anschluss.jpg" width="35%" />
-
-Abb.: eigene Aufnahme
+<span class="image left">
+    {%include images/Cam1Klee.md %}
+    Abbildung 1: *Anschluss der Kamera am Raspberry Pi*
+</span>
 
 Anschließend kann die Kamera über die Einstellungen aktiviert werden.
 
@@ -71,13 +72,14 @@ Nun speichern des Skriptes mit Strg + o. Wichtig ist der folgende Speicherort:
 
 Das Skript wird nun zu jeder vollen Minute ausgeführt. Ausführliche Beschreibungen zur Einrichtung eines Crontabs können unter <https://github.com/mileusna/crontab> nachgelesen werden.
 
+<span class="image right">
+    {%include images/CamPanTilt.md %}
+    Abbildung 2: *PIMORONI. Tech Treasure for Makers. "<https://shop.pimoroni.com/products/pan-tilt-hat?variant=33704345034>"*
+</span>
+
 Die wasserdichte Integration der Kamera auf Deck des Bootes lässt sich vielseitig ermöglichen. Auf dem Boot wurde der Raspberry Pi zusammen mit anderen Bauteilen in eine Kunststoffbox gelegt. Die Kamera wurde aus Zeit- und Kostengründen provisorisch mit einer wasserdichten Folie ummantelt. Online finden sich auch zahlreiche Anleitungen zum 3d Druck von wasserfesten Raspberry Pi Hüllen. Hier ein Beispiel: <https://tinkererblog.wordpress.com/2015/07/28/how-i-designed-a-compact-weatherproof-raspberry-pi-case/>
 
 Zur Bewegung der Kamera wurde zu Testzwecken eine bewegliche Halterung integriert. Dieser "Pan-Tilt HAT" von Pimoroni Ltd. kann vertikal und horizontal ausgerichtet werden.
-
-<img src="F:/Uni/Geo/_MA/Mikrofernerkundung/Camera Section/pan_tilt.gif" width="35%" />
-
-Abb.: PIMORONI. Tech Treasure for Makers. "<https://shop.pimoroni.com/products/pan-tilt-hat?variant=33704345034>"
 
 Umfangreiche Anleitungen zur Verwendung finden sich unter <http://docs.pimoroni.com/pantilthat/#> und <https://github.com/pimoroni/pantilt-hat>
 
