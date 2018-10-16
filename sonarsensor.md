@@ -166,7 +166,7 @@ To prevent the deeper from swaying too much on the water surface, the idea of at
 
 <span class="image fit">
     {%include images/SonarDeeperRobo.md %}
-    Image 7 *Deeper attachment by Robot Arm*
+    Image 8 *Deeper attachment by Robot Arm*
 </span>
 
 **3\. Third Attachent at the final catermaran**
