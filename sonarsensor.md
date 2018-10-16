@@ -150,8 +150,9 @@ Image 5/6 *Function Deeper Sonar (from deepersonar.com)*
 
 <span class="image right">
     <img src={%include images/SonarRoboarm.md %} width="10%" height="10%" alt=""/>
-    Image 7/8 *Deeper attachment by robot arm (design by JHKBuilder 2018)*
+    Image 7 *Robot Arm (design by JHKBuilder 2018)*
 </span>
+
 
 **1\. First Attachment**
 
@@ -165,6 +166,7 @@ To prevent the deeper from swaying too much on the water surface, the idea of at
 
 <span class="image fit">
     {%include images/SonarDeeperRobo.md %}
+    Image 7 *Deeper attachment by Robot Arm*
 </span>
 
 **3\. Third Attachent at the final catermaran**
