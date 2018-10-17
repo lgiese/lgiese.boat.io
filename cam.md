@@ -83,3 +83,13 @@ Zur Bewegung der Kamera wurde zu Testzwecken eine bewegliche Halterung integrier
 
 Umfangreiche Anleitungen zur Verwendung finden sich unter <http://docs.pimoroni.com/pantilthat/#> und <https://github.com/pimoroni/pantilt-hat>
 
+
+<ul class="pagination">
+        <li><span class="button">Prev</span></li>
+        <li><a href="#" class="page">1</a></li>
+        <li><a href="{{ 'sonarsensor.html' | absolute_url }}" class="page">2</a></li>
+        <li><a href="#" class="page">3</a></li>
+        <li><a href="{{ 'cam.html' | absolute_url }}" class="page active">4</a></li>
+        <li><a href="#" class="page">5</a></li>
+        <li><a href="#" class="button">Next</a></li>
+</ul>
