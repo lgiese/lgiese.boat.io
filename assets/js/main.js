@@ -282,8 +282,6 @@
     });
          
 
-})(jQuery);
-
         //Gallery.
             var slideIndex = 1;
             showSlides(slideIndex);
@@ -315,3 +313,4 @@
                 dots[slideIndex-1].className += " active";
                 captionText.innerHTML = dots[slideIndex-1].alt;
             }
+})(jQuery);
