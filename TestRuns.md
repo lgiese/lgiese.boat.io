@@ -18,7 +18,7 @@ title: Gallery
 
   <div class="mySlides">
     <div class="numbertext">2 / 8</div>
-      <img src="{{ 'assets/images/WorkinProg/WIP2.jpg' | absolute_url }}" style="width:100%">
+      <img src="{{ 'assets/images/TestRun/TR2.jpg' | absolute_url }}" style="width:100%">
   </div>
 
   <div class="mySlides">
@@ -81,10 +81,10 @@ title: Gallery
       <img class="demo cursor" src="{{ 'assets/images/TestRun/TR6.jpg' | absolute_url }}" style="width:100%" onclick="currentSlide(6)" alt="AHH, Water in the boat!">
     </div>
     <div class="column">
-      <img class="demo cursor" src="{{ 'assets/images/TestRun/TR7.jpg' | absolute_url }}" style="width:100%" onclick="currentSlide(5)" alt="Connecting RasPi-Cam 2">
+      <img class="demo cursor" src="{{ 'assets/images/TestRun/TR7.jpg' | absolute_url }}" style="width:100%" onclick="currentSlide(7)" alt="Connecting RasPi-Cam 2">
     </div>
     <div class="column">
-      <img class="demo cursor" src="{{ 'assets/images/TestRun/TR8.jpg' | absolute_url }}" style="width:100%" onclick="currentSlide(6)" alt="AHH, Water in the boat!">
+      <img class="demo cursor" src="{{ 'assets/images/TestRun/TR8.jpg' | absolute_url }}" style="width:100%" onclick="currentSlide(8)" alt="AHH, Water in the boat!">
     </div>
   </div>
 </div>

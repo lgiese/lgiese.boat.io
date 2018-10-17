@@ -12,27 +12,27 @@ title: Gallery
 
   <!-- Full-width images with number text -->
   <div class="mySlides">
-    <div class="numbertext">1 / 6</div>
+    <div class="numbertext">1 / 5</div>
       <img src="{{ 'assets/images/WorkinProg/WIP1.jpg' | absolute_url }}" style="width:100%">
   </div>
 
   <div class="mySlides">
-    <div class="numbertext">2 / 6</div>
+    <div class="numbertext">2 / 5</div>
       <img src="{{ 'assets/images/WorkinProg/WIP2.jpg' | absolute_url }}" style="width:100%">
   </div>
 
   <div class="mySlides">
-    <div class="numbertext">3 / 6</div>
+    <div class="numbertext">3 / 5</div>
       <img src="{{ 'assets/images/WorkinProg/WIP3.jpg' | absolute_url }}" style="width:100%">
   </div>
 
   <div class="mySlides">
-    <div class="numbertext">4 / 6</div>
+    <div class="numbertext">4 / 5</div>
       <img src="{{ 'assets/images/WorkinProg/WIP4.jpg' | absolute_url }}" style="width:100%">
   </div>
 
   <div class="mySlides">
-    <div class="numbertext">5 / 6</div>
+    <div class="numbertext">5 / 5</div>
       <img src="{{ 'assets/images/WorkinProg/WIP5.jpg' | absolute_url }}" style="width:100%">
   </div>
 
