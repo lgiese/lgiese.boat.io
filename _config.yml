@@ -3,7 +3,7 @@ title: Mr. Turtle
 subtitle: by Gis Lab Marburg
 email: giesela@students.uni-marburg.de
 description: Constructing a remotely controled swimming platform stuffed with sensors for environmental remote sensing
-baseurl: # the subpath of your site, e.g. /blog
+baseurl: /lgiese.boat.io
 url: "" # the base hostname & protocol for your site
 author:
 street_address: 1234 Somewhere Road
@@ -16,7 +16,7 @@ phone: (716) 555-5555
 # Social settings
 500px_url:
 facebook_url: https://www.facebook.com/GeographieMarburg/?__xts__[0]=68.ARByJXKgoGm67n00NuEP-DDyz0d4PSCu6Xyd6cmr2NkgpFWDaCtrxLNh8lVMlsMa4Msa_39XkkKgX0XEPqCUq8Mr5jsoskUMFNMKZ9vJXzNSS4DxY6TlBBuTyjWcbRQx0CzAQFwR5wkBcKY8CyRvfP5thquDOxNYPQl3YAfyf-SNVCAhVeeZ
-github_url: https://github.com/lgiese/lgiese.boat.io
+github_url: https://github.com/lgiese
 gitlab_url: 
 googleplus_url:
 instagram_url: 

@@ -289,22 +289,22 @@
             showSlides(slideIndex);
 
             // Next/previous controls.
-            function plusSlides(n) {
-                showSlides(slideIndex += n);
+            function plusSlides($) {
+                showSlides(slideIndex += $);
             }
 
             // Thumbnail image controls.
-            function currentSlide(n) {
-                showSlides(slideIndex = n);
+            function currentSlide($) {
+                showSlides(slideIndex = $);
             }
 
-            function showSlides(n) {
+            function showSlides($) {
                 var i;
                 var slides = document.getElementsByClassName("mySlides");
                 var dots = document.getElementsByClassName("demo");
                 var captionText = document.getElementById("caption");
-                if (n > slides.length) {slideIndex = 1}
-                if (n < 1) {slideIndex = slides.length}
+                if ($ > slides.length) {slideIndex = 1}
+                if ($ < 1) {slideIndex = slides.length}
                 for (i = 0; i < slides.length; i++) {
                     slides[i].style.display = "none";
                     }
