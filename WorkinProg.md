@@ -148,9 +148,9 @@ title: Gallery - Work In Progress
                         <img class="fit-left" src="assets/images/WorkInProg/WIP1.jpg">
                     </a>
                 </div>
-                <div class="justified-gallery" style="width: 680px; height: 340px; top: 6px; left: 4px;" data-responsive="{{ 'assets/images/WorkInProg/WIP2.jpg' | absolute_url }} 375, {{ 'assets/images/WorkInProg/WIP2.jpg' | absolute_url }} 480, {{ 'assets/images/WorkInProg/WIP2.jpg' | absolute_url }} 800" data-src="{{ 'assets/images/WorkInProg/WIP2.jpg' | absolute_url }}" data-sub-html="<h4>Construction1</h4><p>Glueing the boat top 1</p>">
-                    <a href="{{ 'assets/images/WorkInProg/WIP2.jpg' | absolute_url }}">
-                        <img class="fit-right" src="{{ 'assets/images/WorkInProg/WIP2.jpg' | absolute_url }}">
+                <div class="justified-gallery" style="width: 680px; height: 340px; top: 6px; left: 4px;" data-responsive="{{ 'assets/images/WorkInProg/WIP2.jpg' | relative_url }} 375, {{ 'assets/images/WorkInProg/WIP2.jpg' | relative_url }} 480, {{ 'assets/images/WorkInProg/WIP2.jpg' | relative_url }} 800" data-src="{{ 'assets/images/WorkInProg/WIP2.jpg' | relative_url }}" data-sub-html="<h4>Construction1</h4><p>Glueing the boat top 1</p>">
+                    <a href="{{ 'assets/images/WorkInProg/WIP2.jpg' | relative_url }}">
+                        <img class="fit-right" src="{{ 'assets/images/WorkInProg/WIP2.jpg' | relative_url }}">
                     </a>
                 </div>
                 <div class="justified-gallery" style="width: 680px; height: 340px; top: 6px; left: 4px;" data-responsive="assets/images/WorkInProg/WIP3.jpg 375, assets/images/WorkInProg/WIP3.jpg 480, assets/images/WorkInProg/WIP3.jpg 800" data-src="{{ 'assets/images/WorkInProg/WIP3.jpg' | absolute_url }}" data-sub-html="<h4>Construction2</h4><p>Glueing the boat top 2</p>">
