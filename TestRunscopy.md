@@ -1,6 +1,6 @@
 ---
 layout: gallery
-title: Gallery - Work In Progress
+title: Gallery - Test Runs
 ---
 
  <head>
@@ -172,6 +172,13 @@ title: Gallery - Work In Progress
 </div>
 
 <h1>Videos</h1>
+
+<div class="justified-gallery" data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
+                <video style="width: 420px; height: 500px; top: 6px; right: 180px; padding-right: 30px; border: solid 1px rgba(210, 215, 217, 0.75); border-top: 0; border-left: 0; border-bottom: 0;" controls>
+                    <source src="{{ 'assets/images/TestRun/VideoTR4_Komp11.mp4' | absolute_url }}" type="video/mp4">
+                </video>
+                </div>
+
 
 <script type="text/javascript">
 $(document).ready(function(){
