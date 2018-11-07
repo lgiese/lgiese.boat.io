@@ -143,29 +143,29 @@ title: Gallery - Work In Progress
 <!-- Container for the image gallery -->
         <div class="demo-gallery">
             <ul id="lightgallery" class="list-unstyled row">
-                <div class="justified-gallery" style="width: 680px; height: 340px; top: 6px; left: 4px;" data-responsive="assets/images/WorkInProg/WIP1.jpg 375, assets/images/WorkInProg/WIP1.jpg 480, assets/images/WorkInProg/WIP1.jpg 800" data-src="{{ 'assets/images/WorkInProg/WIP1.jpg' | absolute_url }}" data-sub-html="<h4>3DPrintBoat</h4><p>C3D printed boat with motor, accu, rudder and ship wave</p>">
-                    <a href="assets/images/WorkInProg/WIP1.jpg">
-                        <img class="image" src="assets/images/WorkInProg/WIP1.jpg">
+                <div class="justified-gallery" style="width: 680px; height: 340px; top: 6px; left: 4px;" data-responsive="assets/images/WorkInProg/WIP1.JPG 375, assets/images/WorkInProg/WIP1.JPG 480, assets/images/WorkInProg/WIP1.JPG 800" data-src="{{ 'assets/images/WorkInProg/WIP1.JPG' | absolute_url }}" data-sub-html="<h4>3DPrintBoat</h4><p>C3D printed boat with motor, accu, rudder and ship wave</p>">
+                    <a href="assets/images/WorkInProg/WIP1.JPG">
+                        <img class="image" src="assets/images/WorkInProg/WIP1.JPG">
                     </a>
                 </div>
-                <div class="justified-gallery" style="width: 680px; height: 340px; top: 6px; left: 4px;" data-responsive="{{ 'assets/images/WorkInProg/WIP2.jpg' | relative_url }} 375, {{ 'assets/images/WorkInProg/WIP2.jpg' | relative_url }} 480, {{ 'assets/images/WorkInProg/WIP2.jpg' | relative_url }} 800" data-src="{{ 'assets/images/WorkInProg/WIP2.jpg' | relative_url }}" data-sub-html="<h4>Construction1</h4><p>Glueing the boat top 1</p>">
-                    <a href="{{ 'assets/images/WorkInProg/WIP2.jpg' | relative_url }}">
-                        <img class="image" src="{{ 'assets/images/WorkInProg/WIP2.jpg' | relative_url }}">
+                <div class="justified-gallery" style="width: 680px; height: 340px; top: 6px; left: 4px;" data-responsive="{{ 'assets/images/WorkInProg/WIP2.JPG' | relative_url }} 375, {{ 'assets/images/WorkInProg/WIP2.JPG' | relative_url }} 480, {{ 'assets/images/WorkInProg/WIP2.JPG' | relative_url }} 800" data-src="{{ 'assets/images/WorkInProg/WIP2.JPG' | relative_url }}" data-sub-html="<h4>Construction1</h4><p>Glueing the boat top 1</p>">
+                    <a href="{{ 'assets/images/WorkInProg/WIP2.JPG' | relative_url }}">
+                        <img class="image" src="{{ 'assets/images/WorkInProg/WIP2.JPG' | relative_url }}">
                     </a>
                 </div>
-                <div class="justified-gallery" style="width: 680px; height: 340px; top: 6px; left: 4px;" data-responsive="assets/images/WorkInProg/WIP3.jpg 375, assets/images/WorkInProg/WIP3.jpg 480, assets/images/WorkInProg/WIP3.jpg 800" data-src="{{ 'assets/images/WorkInProg/WIP3.jpg' | absolute_url }}" data-sub-html="<h4>Construction2</h4><p>Glueing the boat top 2</p>">
-                    <a href="assets/images/WorkInProg/WIP3.jpg">
-                        <img class="image" src="assets/images/WorkInProg/WIP3.jpg">
+                <div class="justified-gallery" style="width: 680px; height: 340px; top: 6px; left: 4px;" data-responsive="assets/images/WorkInProg/WIP3.JPG 375, assets/images/WorkInProg/WIP3.JPG 480, assets/images/WorkInProg/WIP3.JPG 800" data-src="{{ 'assets/images/WorkInProg/WIP3.JPG' | absolute_url }}" data-sub-html="<h4>Construction2</h4><p>Glueing the boat top 2</p>">
+                    <a href="assets/images/WorkInProg/WIP3.JPG">
+                        <img class="image" src="assets/images/WorkInProg/WIP3.JPG">
                     </a>
                 </div>
-                <div class="justified-gallery" style="width: 680px; height: 340px; top: 6px; left: 4px;" data-responsive="assets/images/WorkInProg/WIP4.jpg 375, assets/images/WorkInProg/WIP4.jpg 480, assets/images/WorkInProg/WIP4.jpg 800" data-src="{{ 'assets/images/WorkInProg/WIP4.jpg' | absolute_url }}" data-sub-html="<h4>RaspiCam2</h4><p>Connecting RasPi-Cam 1</p>">
-                    <a href="assets/images/WorkInProg/WIP4.jpg">
-                        <img class="image" src="assets/images/WorkInProg/WIP4.jpg">
+                <div class="justified-gallery" style="width: 680px; height: 340px; top: 6px; left: 4px;" data-responsive="assets/images/WorkInProg/WIP4.JPG 375, assets/images/WorkInProg/WIP4.JPG 480, assets/images/WorkInProg/WIP4.JPG 800" data-src="{{ 'assets/images/WorkInProg/WIP4.JPG' | absolute_url }}" data-sub-html="<h4>RaspiCam2</h4><p>Connecting RasPi-Cam 1</p>">
+                    <a href="assets/images/WorkInProg/WIP4.JPG">
+                        <img class="image" src="assets/images/WorkInProg/WIP4.JPG">
                     </a>
                 </div>
-                <div class="justified-gallery" style="width: 680px; height: 340px; top: 6px; left: 4px;" data-responsive="assets/images/WorkInProg/WIP5.jpg 375, assets/images/WorkInProg/WIP5.jpg 480, assets/images/WorkInProg/WIP5.jpg 800" data-src="{{ 'assets/images/WorkInProg/WIP5.jpg' | absolute_url }}" data-sub-html="<h4>RaspiCam2</h4><p>Connecting RasPi-Cam 2</p>">
-                    <a href="assets/images/WorkInProg/WIP5.jpg">
-                        <img class="image" src="assets/images/WorkInProg/WIP5.jpg">
+                <div class="justified-gallery" style="width: 680px; height: 340px; top: 6px; left: 4px;" data-responsive="assets/images/WorkInProg/WIP5.JPG 375, assets/images/WorkInProg/WIP5.JPG 480, assets/images/WorkInProg/WIP5.JPG 800" data-src="{{ 'assets/images/WorkInProg/WIP5.JPG' | absolute_url }}" data-sub-html="<h4>RaspiCam2</h4><p>Connecting RasPi-Cam 2</p>">
+                    <a href="assets/images/WorkInProg/WIP5.JPG">
+                        <img class="image" src="assets/images/WorkInProg/WIP5.JPG">
                     </a>
                 </div>              
         </ul>
