@@ -45,7 +45,7 @@ Mr. Turtle is currently equipped with a Sonar-, Lidar- and a Temerature-Sensor. 
                             <td>GND black</td>
 						</tr>
 						<tr>
-							<td>Temperature Sensor red</td>
+							<td>Temperature Sensor green</td>
 							<td>GPIO4</td>
 							<td>GPIO14 (TXD)</td>
                             <td>   </td>
@@ -107,4 +107,5 @@ Mr. Turtle is currently equipped with a Sonar-, Lidar- and a Temerature-Sensor. 
     <li><a href="https://mobiusstripblog.wordpress.com/2016/12/26/first-blog-post/ ">https://mobiusstripblog.wordpress.com/2016/12/26/first-blog-post/ </a></li>
     <li><a href="https://www.instructables.com/id/Raspberry-Pi-Tutorial-How-to-Use-a-Buzzer/">https://www.instructables.com/id/Raspberry-Pi-Tutorial-How-to-Use-a-Buzzer/</a></li>
     <li><a href="https://codingworld.io/project/der-servo-am-raspberry-pi">https://codingworld.io/project/der-servo-am-raspberry-pi</a></li>
+    <li><a href="https://www.datenreise.de/raspberry-pi-wie-verwendet-man-ein-breadboard-steckplatine-anleitung/">https://www.datenreise.de/raspberry-pi-wie-verwendet-man-ein-breadboard-steckplatine-anleitung/</a></li>
 </ul>
