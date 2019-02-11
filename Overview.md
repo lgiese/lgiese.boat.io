@@ -12,93 +12,15 @@ Mr. Turtle is currently equipped with a Sonar-, Lidar- and a Temerature-Sensor. 
     <li>how the equipment is set up on the platform</li>
     <li>how the equipment is connected to each other</li>
 </ul>
-<h2>Setting Raspberry Pi</h2>
-<div class="row 200%">
-	<div class="6u 12u$(medium)">
-        <div class="table-wrapper">
-				<table class="alt">
-					<thead>
-						<tr>
-							<th>Cable connection</th>
-							<th>GPIO set-up (Fig.2)</th>
-              <th>GPIO set-up (Fig.2)</th>
-              <th>Cable connection</th>
-						</tr>
-					</thead>
-					<tbody>
-                        <tr>
-							<td>   </td>
-							<td>3V</td>
-                            <td>5V</td>
-                            <td>   </td>
-						</tr>
-						<tr>
-							<td>Lidar blue <--> blue </td>
-							<td>SDA GPIO2</td>
-							<td>5V</td>
-                            <td>5V red Lidar</td>
-						</tr>
-						<tr>
-							<td>Lidar green <--> green </td>
-							<td>SCL GPIO3</td>
-							<td>GND</td>
-                            <td>GND black</td>
-						</tr>
-						<tr>
-							<td>Temperature Sensor green</td>
-							<td>GPIO4</td>
-							<td>GPIO14 (TXD)</td>
-                            <td>   </td>
-						</tr>
-						<tr>
-							<td>   </td>
-							<td>GND</td>
-                            <td>GPIO15</td>
-							<td>   </td>
-						</tr>
-						<tr>
-							<td>Feedback blue</td>
-							<td>GPIO17</td>
-							<td>GPIO18</td>
-                            <td>   </td>
-						</tr>
-                        <tr>
-                            <td>   </td>
-							<td>GPIO27</td>
-                            <td>GND</td>
-							<td>   </td>
-                        </tr>
-                        <tr>
-                            <td>   </td>
-							<td>GPIO22</td>
-                            <td>GPIO23</td>
-							<td>yellow --> Servo 1</td>
-                        </tr>
-                        <tr>
-                            <td>   </td>
-							<td>3V</td>
-                            <td>GPIO24</td>
-							<td>green --> Servo 2</td>
-                        </tr>
-					</tbody>
-                    <tfoot>
-                        <td colspan="4">Tab 1: Scatch of GPIO setting</td>
-					</tfoot>
-					<tfoot>
-                        <td colspan="4">...</td>
-                    </tfoot>
-				</table>     
-    </div>
-    <span class="image fit">
-            <img src="" alt="" /></span>
-            <p> Fig 1: Foto of plumbed Raspi </p>
-</div>
-    <div class="6u$ 12u$(medium)">
-        <span class="image fit">
-            <img src="assets/images/RaspberryPiGPIOBelegung-789x1024.png" alt="" /></span>
-            <p> Fig 2: Set-up Raspberry Pi 3 of <a href="https://indibit.de/raspberry-pi-die-gpio-schnittstelle-grundlagenbelegung/">https://indibit.de/raspberry-pi-die-gpio-schnittstelle-grundlagenbelegung/</a></p>
-</div>
+<h2>Platform and Equipment</h2>
 
+**Platform Setup** [Foto of Pixhawk/Motor: © PX4 Dev Team. License: CC BY 4.0](https://docs.px4.io/en/assembly/quick_start_pixhawk.html)
+
+<h2>Setting Raspberry Pi</h2>
+<span class="image left">
+      <img src="{{ 'assets/images/Sensors_boat_fritz.JPG ' | absolute_url }}" alt=""/>
+      Image 1: *LidarLite, 2 Servos to change Lidar position and a temperature sensor connected to Raspberry Pi*
+</span>
 
 <p> Literature/Info for the following Sensor Pages: Servos 5V, Temp 3V, Lidar 5V</p>
 
