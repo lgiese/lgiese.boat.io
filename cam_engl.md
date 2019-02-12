@@ -7,7 +7,7 @@ title: Cameras
 
 <p>The following inscription descipes the Raspberry Pi Camera V2.1 installation, including an example for an automatic picture recording script combined with an auto boot script using crontab.</p>
 
-<p>The Raspberry Pi is pre-installed with the free-to-use operating system "Noobs", available on:</p>[https://www.raspberrypi.org/downloads/noobs/](https://www.raspberrypi.org/downloads/noobs/)
+<p>The Raspberry Pi is pre-installed with the free-to-use operating system "Noobs", available on: <a  href="https://www.raspberrypi.org/downloads/noobs/">https://www.raspberrypi.org/downloads/noobs/</a></p>
 
 <p>The Camera is plugged into the CSI-Interface.</p>
 
@@ -73,9 +73,9 @@ title: Cameras
 
     /etc/ . /cron.d/crontab
 
-<p> The script will now be executed once per minute. Detailed description handling with crontab can be found here: </p>[https://github.com/mileusna/crontab](https://github.com/mileusna/crontab)
+<p> The script will now be executed once per minute. Detailed description handling with crontab can be found here: <a  href="https://github.com/mileusna/crontab">https://github.com/mileusna/crontab</a></p>
 
-<p>There are a lot of possible ways for a water-resistant camera integration. On deck of the TURTLE, the Raspberry has been laid into a waterproof box, the camera tentative wrapped with foil. But there are countless ideas online. For example 3d printing cases:</p> [https://tinkererblog.wordpress.com/2015/07/28/how-i-designed-a-compact-weatherproof-raspberry-pi-case/](https://tinkererblog.wordpress.com/2015/07/28/how-i-designed-a-compact-weatherproof-raspberry-pi-case/)
+<p>There are a lot of possible ways for a water-resistant camera integration. On deck of the TURTLE, the Raspberry has been laid into a waterproof box, the camera tentative wrapped with foil. But there are countless ideas online. For example 3d printing cases: <a href="https://tinkererblog.wordpress.com/2015/07/28/how-i-designed-a-compact-weatherproof-raspberry-pi-case/">https://tinkererblog.wordpress.com/2015/07/28/how-i-designed-a-compact-weatherproof-raspberry-pi-case/</a></p>
 
 <p>To move the camera vertial and horizontal a "Pan-Tilt HAT" by Pimoroni Ltd. has been additionally integrated.</p>
 
@@ -84,7 +84,7 @@ title: Cameras
     Fig. 2: **PIMORONI** *Tech Treasure for Makers. [https://shop.pimoroni.com/products/pan-tilt-hat?variant=33704345034](https://shop.pimoroni.com/products/pan-tilt-hat?variant=33704345034)* 
 </span>
 
-</p>Detailed description can be found here:</p> [http://docs.pimoroni.com/pantilthat/#](http://docs.pimoroni.com/pantilthat/#), [https://github.com/pimoroni/pantilt-hat](https://github.com/pimoroni/pantilt-hat)
+<p>Detailed description can be found here: <a href="http://docs.pimoroni.com/pantilthat/#">http://docs.pimoroni.com/pantilthat/#</a> , <a href="https://github.com/pimoroni/pantilt-hat">https://github.com/pimoroni/pantilt-hat</a></p>
 
 <p class="copyright">&copy; Maximilian Kleebauer. 12. September 2018 </p>
 
