@@ -17,6 +17,7 @@ Mr. Turtle is currently equipped with a Sonar-, Lidar- and a Temerature-Sensor. 
 **Platform Setup** [Foto of Pixhawk/Motor: © PX4 Dev Team. License: CC BY 4.0](https://docs.px4.io/en/assembly/quick_start_pixhawk.html)
 
 <h2>Setting Raspberry Pi</h2>
+
 <span class="image left">
       <img src="{{ 'assets/images/Sensors_boat_fritz.JPG ' | absolute_url }}" alt=""/>
       Image 1: *LidarLite, 2 Servos to change Lidar position and a temperature sensor connected to Raspberry Pi*
