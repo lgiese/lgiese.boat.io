@@ -7,10 +7,10 @@ title: LidarLite
 
 <span class="image left">
       <img src="{{ 'assets/images/LidarServos.JPG ' | absolute_url }}" alt=""/>
-      Image 1 *LidarLite and 2 Servos*
+      Fig. 1: *LidarLite and 2 servos*
 </span>
 
-<h3>Script Lidar Position (Servos):</h3>
+<h3>Script Lidar Position (servos):</h3>
 
     import RPi.GPIO as GPIO
     import time

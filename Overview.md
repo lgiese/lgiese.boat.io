@@ -25,8 +25,8 @@ title: Overview - Sensors and more
 
 <h3>Raspberry Pi & Sensors</h3>
 
-<span class="image left">
-      <img src="{{ 'assets/images/Sensors_boat_fritz.JPG ' | absolute_url }}" alt=""/>
+<span class="image right">
+      <img src="{{ 'assets/images/Sensors_boat_fritz.JPG ' | relative_url }}" alt=""/>
       Fig. 3: *LidarLite, 2 servos to change Lidar position and a temperature sensor connected to Raspberry Pi*
 </span>
 
