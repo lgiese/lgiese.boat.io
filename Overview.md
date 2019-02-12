@@ -32,9 +32,9 @@ title: Overview - Sensors and more
 
 <p> The Raspberry Pi, which is connected to the Temperature Sensor and the Lidar in Fig. 1 is responsible for storing data and controlling the functioning of the Sensors. In Fig. 3 you see, how the wiring of a setting containing Sonar-, Lidar- and a Temerature-Sensor and two servos is done. The servos are integrated in a mounting for the Lidar. Thank´s to this mounting the Lidar can be turned around a horizontal and a vertical axis. A more detailed description of the wiring and functioning of the Sensors can be found in the following pages of the Equipment-menu.</p>
 
-<h3>Drive</h3>
+<h3>Deeper Sonar</h3>
 
-<p> The Deeper-Sonar is losely connected to the Turtle by a simple string. Like this it is drifting behind the platform on the water surface. It is working independently and is connected to a on-board mobile phone (Fig. 1) via wifi. Due to the Deeper-software data can´t be directly stored on the RasPi.</p>
+<p> The Deeper is losely connected to the Turtle by a simple string. Like this it is drifting behind the platform on the water surface. It is working independently and is connected to a on-board mobile phone (Fig. 1) via wifi. Due to the Deeper-software data can´t be directly stored on the RasPi.</p>
 
 <h3> Literature/Info</h3>
 
