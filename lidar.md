@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Lidar output
+title: Lidar
 ---
 
-### Lidar Lite 3 Raspberry Pi 3 Sensor
+### Garmin Lidar Lite 3
 
 <div class="box alt">
     <div class="row 50% uniform">
@@ -17,236 +17,92 @@ title: Lidar output
     </div>
 </div>
 
-<p> Lidar Lite 3 ( Lidar = laser detection and ranging, Fig. 1) is a Raspberry 3 sensor, which calculates distance by emitting and recieving Laser light. In combination with the servo-driven motion system (Vid. 1) we generate a 3 dimensional point cloud of the environment (see <a href="{{ 'Lidar_results.html' | absolute_url }}">point cloud example</a>).</p>
+<p> Garmin Lidar Lite 3 ( Lidar = laser detection and ranging, Fig. 1) is a Raspberry Pi 3 sensor, which calculates distance by emitting and recieving Laser light. In combination with the servo-driven motion system (Vid. 1) we generate a 3 dimensional point cloud of the environment (see <a href="{{ 'Lidar_results.html' | absolute_url }}">point cloud example</a>).</p>
 
-<h3>Script Lidar Position (servos):</h3>
+<h3>Setup</h3>
 
-The servo script controlls the scanning pattern of the lidar. It moves from top to bottom and from left to right. It scans an angle of 180 degrees. When it is attached to the platform it is orientated sideways. This way it scans one side of the river.
+<span class="image right">
+    <img src="{{ 'assets/images/solderedLidar.JPG ' | absolute_url }}" alt=""/>
+    Fig. 1: Soldered Lidar, servo and Temperature connections plugged to the Raspberry Pi 3
+</span>
+
+<p>To connect the Lidar to the Raspi 3 we used:</p>
+<p><li> A Raspberry Pi 3, which is pre-installed with the free-to-use operating system "Noobs", available on: <a  href="https://www.raspberrypi.org/downloads/noobs/">https://www.raspberrypi.org/downloads/noobs/</a></li>
+<li>Connection wires</li>
+<li>A printed circuit board</li>
+<li>1000µF Electrolytic Capacitor</li></p>
+<p>It takes four steps to get the lidar running (a more detailed instruction is provided by <a href="https://mobiusstripblog.wordpress.com/2016/12/26/first-blog-post/">Mobius Strip Blog</a>):
+<li>Connect the wires the right way. Our result (plus temperature sensor connections) you can see <a href="{{ 'Overview.html' | absolute_url }}">here</a> in Fig. 3 at the page bottom. The wires are soldered to the printed circuit board to guard it against intermittend contact. The result is shown in Fig. 2.</li>
+<li>Turn on the I2C pin on the RasPi</li>
+<li>Install the I2C tools</li>
+<li>In our case the RasPi Kernel needed to be downgraded to version 4.4 before the lidar was communicating with the RasPi (see <a href="https://forum-raspberrypi.de/forum/thread/21114-firmware-u-kernel-downgrade-mit-rpi-update/">Raspberry Pi Forum</a>)</li>
+ </p>
+
+<h3>Lidar Script</h3>
+
+The following Python 2 script controls the scanning pattern of the lidar and saves the lidar data. It moves from top to bottom and from left to right. It scans an left-right-angle of 81 degrees and a top-bottom-angle of 35 degrees in total. The angles can be adjusted by editing the skript. 
+When the lidar is attached to the platform it is orientated sideways. This way it scans one side of the river.
 
     import RPi.GPIO as GPIO
     import time
+    import csv
     from lidar_lite import Lidar_Lite
-    import datetime
 
     lidar = Lidar_Lite()
+
     connected = lidar.connect(1)
     if connected < -1:
-        print( "Not Connected")
+        print("nema connecta")
 
-    servoPIN1 = 24
-    servoPIN2 = 23
+    servo1 = 16
+    servo2 = 18
+    GPIO.setmode(GPIO.BOARD)
+    GPIO.setup(servo1, GPIO.OUT)
+    GPIO.setup(servo2, GPIO.OUT)
 
-    GPIO.setmode(GPIO.BCM)
+    p = GPIO.PWM(servo1, 50)
+    q = GPIO.PWM(servo2, 50)
+    q.start(2.5)
+    p.start(2.5) 
 
-    GPIO.setup(servoPIN1, GPIO.OUT)
-    GPIO.setup(servoPIN2, GPIO.OUT)
+    def test():
+        xxx = [2.5 + i*0.5 for i in range(1, 20)]
+        for xx in xxx:
+            print(xx)
+            p.ChangeDutyCycle(xx)
+            time.sleep(1)
 
-    p1 = GPIO.PWM(servoPIN1, 50) # GPIO  als PWM mit 50Hz
-    p2 = GPIO.PWM(servoPIN2, 50) # GPIO  als PWM mit 50Hz
 
-    p1.start(2.5) # Initialisierung
-    p2.start(2.5) # Initialisierung
-
-    erg = []
-
-    # Umrechnung Grad in Tastverhaeltnis je servo
-    def setservo1(winkel):
-        if winkel < 0:
-            winkel = 0
-        if winkel > 180:
-            winkel = 180
-        pwm = winkel/18 + 2.5
-        p1.ChangeDutyCycle(pwm)
-
-    def setservo2(winkel):
-        if winkel < 0:
-            winkel = 0
-        if winkel > 180:
-            winkel = 180
-        pwm = winkel/18 + 2.5
-        p2.ChangeDutyCycle(pwm)
-
-    def move():
+        px = [i  * 2.5  for i in reversed(range(16,35))]
+        py = [56 + i*2 for i in range(0,11)]
         erg = []
-        lid =[]
-        c = 0
-        t1 = time.time()
-        for i in range(58, 102, 4):
-            setservo1(i)
-            time.sleep(0.1)
-            if c in [x for x in range(0, 150) if x%2 == 0 ]:
-                for j in range(30, 95, 5):
-                    setservo2(j)
+
+    try:
+        while True:
+            for y in py:
+                q.ChangeDutyCycle(y/10.0)
+                print("oben")
+                for x in px:
+                    #lidar.pulse()
+                    p.ChangeDutyCycle(float(x/10.0))
+                    print("y" , y)
+                    #time.sleep(1.5)
+
+                    #p.ChangeDutyCycle(x/10.0)
+                    #print("x", x)        
                     time.sleep(0.1)
                     dist = lidar.getDistance()
-                    erg.append( [chr(date.datetime.now(), i, j,dist] )
-                    #lid.append(lidar.getDistance())
-                    print(i,j, dist)
-                c = c+1
-            else:
-                for j in range (95,30,-5):
-                    setservo2(j)
-                    time.sleep(0.1)
-                    dist = lidar.getDistance()
-                    erg.append( [chr(date.datetime.now(),i, j,dist] )
-                    #print(dist)
-                    #lid.append(lidar.getDistance())
-                    print(i,j, dist)
-                c = c+1
-
-        for i in range(114, 70, -4):
-            setservo1(i)
-            time.sleep(0.1)
-            if c in [x for x in range(0, 150) if x%2 == 0 ]:
-                for j in range(30, 95, 5):
-                    setservo2(j)
-                    time.sleep(0.1)
-                    dist = lidar.getDistance()
-                    erg.append( [chr(date.datetime.now(),i, j,dist] )
-                    #lid.append(lidar.getDistance())
-                    #print(i,j, dist)
-                c = c+1
-            else:
-                for j in range (95,30,-5):
-                    setservo2(j)
-                    time.sleep(0.1)
-                    dist = lidar.getDistance()
-                    erg.append( [chr(date.datetime.now(),i, j,dist] )
-                    #print(dist)
-                    #lid.append(lidar.getDistance())
-                    #print(i,j, dist)
-                c = c+1
-            #print(i, j,dist)
-        #GPIO.setup(servoPIN1, GPIO.OUT)
-        #GPIO.setup(servoPIN2, GPIO.OUT)
-        #p1 = GPIO.PWM(servoPIN1, 50) # GPIO  als PWM mit 50Hz
-        #p2 = GPIO.PWM(servoPIN2, 50) # GPIO  als PWM mit 50Hz
-        #p1.start(2.5) # Initialisierung
-        #p2.start(2.5) # Initialisierung
-
-        #print(i,j, dist)
-        #print(c)
-        #t2 =time.time()
-        #print(t2-t1)
-        #print(erg)
-        return(erg)
-
-    #    try:
-    #        # Endlosschleife Servoansteuerung
-    #    while True:
-    #        t1 = time.time()
-    #        test = move()
-    #        t2 = time.time()
-    #        print(t2-t1)
-    #    except KeyboardInterrupt:
-    #    # Abbruch mit [Strg][C],
-    #    GPIO.cleanup()
-
-
-<h3>Script Lidar Run:</h3>
-
- 
-
-### Waterproof Ultrasonic Distance Measuring Module
-
-<span class="image right">
-    {%include images/SonarWaterproof.md %}
-    Image 2 *JSN-SR04T (from raspberrypi-spy.co.uk)*
-</span>
-
-After the first tests with the HR-SR04 module and water resistance problems, the JSN-SR04T Waterproof Ultrasonic Distance Measuring Module was chosen. The module also requires +5V as power supply. Measurement distances is accurate about 0.5 cm and the maximum distance is 4.5 meters.
-
-After the first successful tests in the dry, using the same script as the HR-SR04, we had to determine that the watertightness of the ultrasonic sensor only refers to the probe, i.e.Â it can be used in rain and **not under water**. In that time, it was also difficult to attach the sonor to the body of the boat in order to achieve a good vertical depth measurement in the water.
-
-Price: **around 18 Euro**
-
-Examples for hardware setup and code examples:
-
-[https://www.raspberrypi-spy.co.uk/2016/10/waterproof-ultrasonic-distance-measuring-module/#prettyPhoto](https://www.raspberrypi-spy.co.uk/2016/10/waterproof-ultrasonic-distance-measuring-module/#prettyPhoto)
-
-### Advisement on MB7354 HRXL-MaxSonar-WRS5
-
-<span class="image left">
-    {%include images/SonarMaxbotix.md %}
-    Image 3 *MB7354 (from maxbotix.com)*
-</span>
-
-The MB7354 â€œHRXL-MaxSonar-WRS5 was selected as the third test module. One reason for the selection was the weather resistance described by the manufacturer and the robust PVC housing. Actually intended for measuring snow depths, the module is equipped with an internal filter and a temperature sensor. The resolution of the sensor is specified as 1 mm at a maximum range of 5m. **As the use under water is not recommended, this sensor was not tested.**
-
-Price: **40 $**
-
-Further informations and product specifications:
-
-[https://www.maxbotix.com/Ultrasonic\_Sensors/MB7354.htm](https://www.maxbotix.com/Ultrasonic_Sensors/MB7354.htm)
-
-[https://www.maxbotix.com/documents/HRXL-MaxSonar-WRS\_Datasheet.pdf](https://www.maxbotix.com/documents/HRXL-MaxSonar-WRS_Datasheet.pdf)
-
-### **Final Selection**: Deeper Samrt Sonar Pro+
-
-<span class="image fit">
-    {%include images/SonarDeeper.md %}
-</span>
-Image 4 *Deeper Sonar (from deepersonar.com)* 
-
-The final selection was the **Deeper Smart Sonar Pro+**, a fish finder sonar.The Deeper Sonar can be connected to a smartphone via Wi-Fi and continuously transmits data. The â€œSmart fishig app from Deeper can be used to view the data. In addition, the Deeper Sonar has an integrated GPS and does not need to be connected to the Raspberry via cable connections. some information about features and technology from the Deeper website:
-
-*   Extended scannig depth of 80m
-*   Dual Beam sonar for detailed scanning (290kHz 15A) and wide area coverage (90kHz 55A) by 15 scans per second
-*   Wi-Fi range around 100m
-*   Sensor weight = 100g and diameter = 65mm
-*   Two threads (diameter 5mm) for fastening hooks or threaded rods
-
-**Data export:** The GPS positions, time values and depth (in cm) are first buffered on the mobile phone (Deeper App). The data can then be sent via WiFi to a Google Drive address. A download of the data as.csv file is possible for further analysis.
-
-Price: **235,90 Euro**
-
-Further informations:
-
-[https://deepersonar.com/en/deeper-smart-sonar-pro-plus/](https://deepersonar.com/en/deeper-smart-sonar-pro-plus/) [https://deepersonar.com/en/reading-your-deeper-sonar/](https://deepersonar.com/en/reading-your-deeper-sonar/)
-
-<div class="box alt">
-				<div class="row 50% uniform">
-              <div class="6u 12u$(medium) "><span class="image fit"><img src={%include images/SonarDeeperFun1.md %} width="10%" height="10%" alt=""/></span></div>
-              <div class="6u 12u$(medium) "><span class="image fit"><img src={%include images/SonarDeeperFun2.md %} width="10%" height="10%" alt=""/></span></div>
-        </div>
-</div>
-
-Image 5/6 *Function Deeper Sonar (from deepersonar.com)*
-
-### **Deeper** tests and attachment to the boat
-
-<span class="image right">
-    <img src={%include images/SonarRoboarm.md %} width="10%" height="10%" alt=""/>
-    Image 7 *Robot Arm (design by JHKBuilder 2018)*
-</span>
-
-
-**1\. First Attachment**
-
-The first attachment to the original self printed boat body worked with a simple line or fishing line. The distance between boat and deeper was about 1m. The function of the Deeper and the accuracy of the depth determination could therefore be tested on the Lahn river while it was in motion. The only problem was the GPS connection. Due to the deeperâ€™s strong buoyancy and the boatâ€™s stern waves, the deeper often came under water and interrupting the GPS signal.
-
-**2\. Second Attachment**
-
-To prevent the deeper from swaying too much on the water surface, the idea of attaching the deeper to a robot arm was born. After a short search, the â€œRobot Arm (SG90) was printed on the 3D printer. This should gently press the deeper onto the surface of the water to prevent build-up. Furthermore, the deeper could have been lifted out of the water if the sensor was not needed. The robot arm was too weak to lift the 100g deeper and the load too light to keep the deeper on the water surface.
-
-**Robot Arm (SG90)** [https://www.thingiverse.com/thing:2848795](https://www.thingiverse.com/thing:2848795) (.stl data available here)
-
-<span class="image fit">
-    {%include images/SonarDeeperRobo.md %}
-    Image 8 *Deeper attachment by Robot Arm*
-</span>
-
-**3\. Third Attachent at the final catermaran**
-
-The Deeper was attached to the final Katerman by a simple and effective system (see Image 9 and 10). A threaded rod (diameter 5mm) was fixed on the thread integrated in the deeper and locked with a nut. The length of the threaded rod and the weight of the nuts used now determines the load which keeps the deeper constantly on the water surface. The threaded rod is covered with insulating tape to prevent it from sticking. The deepener can be secured with a cord and the supplied fastening ring.
-
-<div class="box alt">
-				<div class="row 50% uniform">
-              <div class="6u 12u$(medium) "><span class="image fit"><img src={%include images/SonarDeeperAtt1.md %} width="10%" height="10%" alt=""/></span></div>
-              <div class="6u 12u$(medium) "><span class="image fit"><img src={%include images/SonarDeeperAtt2.md %} width="10%" height="10%" alt=""/></span></div>
-        </div>
-</div>
-Image 9/10 *Deeper attachment by threaded bolt*
+                    erg.append([x,y,dist])
+                    time.sleep(0.05)
+                    #time.sleep(1)
+            with open("output.csv", "a") as f:
+                writer = csv.writer(f)
+                writer.writerows(erg)
+            erg = []
+    except KeyboardInterrupt:
+        p.stop()
+        q.stop()
+        GPIO.cleanup()
 
 <ul class="pagination">
     <li><span class="button">Prev</span></li>

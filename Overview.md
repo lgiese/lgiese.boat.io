@@ -38,12 +38,12 @@ title: Overview - Sensors and more
 
 <h3>Raspberry Pi & Sensors</h3>
 
-<p> The Raspberry Pi, which is connected to the Temperature Sensor and the Lidar in Fig. 1 is responsible for storing data and controlling the functioning of the Sensors. In Fig. 3 you see, how the wiring of a setting containing Sonar-, Lidar- and a Temerature-Sensor and two servos is done. The servos are integrated in a mounting for the Lidar. Thank´s to this mounting the Lidar can be turned around a horizontal and a vertical axis. Power supply for the RasPi is provided by the Lipos. A more detailed description of the wiring and functioning of the Sensors can be found in the following pages of the Equipment-menu.</p>
-
 <span class="image right">
-      <img src="{{ 'assets/images/Sensors_boat_fritz.png ' | absolute_url }}" alt=""/>
+      <img src="{{ 'assets/images/Sensors_boat_jo.png ' | absolute_url }}" alt=""/>
       Fig. 3: *LidarLite, 2 servos to change Lidar orientation and a temperature sensor connected to Raspberry Pi*
 </span>
+
+<p> The Raspberry Pi, which is connected to the Temperature Sensor and the Lidar in Fig. 1 is responsible for storing data and controlling the functioning of the Sensors. In Fig. 3 you see, how the wiring of a setting containing Sonar-, Lidar- and a Temerature-Sensor and two servos is done. The servos are integrated in a mounting for the Lidar. Thank´s to this mounting the Lidar can be turned around a horizontal and a vertical axis. Power supply for the RasPi is provided by the Lipos. A more detailed description of the wiring and functioning of the Sensors can be found in the following pages of the Equipment-menu.</p>
 
 <h3>Deeper Sonar</h3>
 
