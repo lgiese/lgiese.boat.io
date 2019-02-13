@@ -1,16 +1,27 @@
 ---
 layout: page
-title: LidarLite
+title: Lidar output
 ---
 
-### Lidar Lite Raspberry Pi Sensor
+### Lidar Lite 3 Raspberry Pi 3 Sensor
 
-<span class="image left">
-      <img src="{{ 'assets/images/LidarServos.JPG ' | absolute_url }}" alt=""/>
-      Fig. 1: *LidarLite and 2 servos*
-</span>
+<div class="box alt">
+    <div class="row 50% uniform">
+        <div class="4u"><span class="image fit">
+            <img src="{{ 'assets/images/LidarServos.JPG ' | absolute_url }}" alt=""/>
+            Fig. 1: LidarLite and 2 servos. The video (right) demonstrates the servo-driven motion system, which scans the environment.
+        </span></div>
+        <div class="4u"><video style="width: 610px; height: 433px;" controls>
+                <source src="{{ 'assets/images/LidarAtwork_mute.mp4 ' | absolute_url }}" type="video/mp4">
+        </video></div>
+    </div>
+</div>
+
+<p> Lidar Lite 3 ( Lidar = laser detection and ranging, Fig. 1) is a Raspberry 3 sensor, which calculates distance by emitting and recieving Laser light. In combination with the servo-driven motion system (Vid. 1) we generate a 3 dimensional point cloud of the environment (see <a href="{{ 'Lidar_results.html' | absolute_url }}">point cloud example</a>).</p>
 
 <h3>Script Lidar Position (servos):</h3>
+
+The servo script controlls the scanning pattern of the lidar. It moves from top to bottom and from left to right. It scans an angle of 180 degrees. When it is attached to the platform it is orientated sideways. This way it scans one side of the river.
 
     import RPi.GPIO as GPIO
     import time
