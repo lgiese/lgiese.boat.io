@@ -17,7 +17,7 @@ title: Lidar
     </div>
 </div>
 
-<p> Garmin Lidar Lite 3 ( Lidar = laser detection and ranging, Fig. 1) is a Raspberry Pi 3 sensor, which calculates distance by emitting and recieving Laser light. In combination with the servo-driven motion system (Vid. 1) we generate a 3 dimensional point cloud of the environment (see <a href="{{ 'Lidar_results.html' | absolute_url }}">point cloud example</a>).</p>
+<p> Garmin Lidar Lite 3 ( Lidar = laser detection and ranging, Fig. 1) is a sensor, which calculates distance by emitting and recieving Laser light. In combination with the servo-driven motion system (Vid. 1) we generate a 3 dimensional point cloud of the environment (see <a href="{{ 'Lidar_results.html' | absolute_url }}">point cloud example</a>).</p>
 
 <h3>Setup</h3>
 
@@ -43,66 +43,59 @@ title: Lidar
 The following Python 2 script controls the scanning pattern of the lidar and saves the lidar data. It moves from top to bottom and from left to right. It scans an left-right-angle of 81 degrees and a top-bottom-angle of 35 degrees in total. The angles can be adjusted by editing the skript. 
 When the lidar is attached to the platform it is orientated sideways. This way it scans one side of the river.
 
+    #import modules, place lidar_lite.py in the same folder
     import RPi.GPIO as GPIO
     import time
     import csv
     from lidar_lite import Lidar_Lite
 
+    #initialize lidar
     lidar = Lidar_Lite()
 
     connected = lidar.connect(1)
     if connected < -1:
         print("nema connecta")
 
+    #set pin numbers, board layout, pin mode, pwm freq., start pwm signal at 0 degress
     servo1 = 16
     servo2 = 18
     GPIO.setmode(GPIO.BOARD)
     GPIO.setup(servo1, GPIO.OUT)
     GPIO.setup(servo2, GPIO.OUT)
-
     p = GPIO.PWM(servo1, 50)
     q = GPIO.PWM(servo2, 50)
     q.start(2.5)
-    p.start(2.5) 
+    p.start(2.5)
 
-    def test():
-        xxx = [2.5 + i*0.5 for i in range(1, 20)]
-        for xx in xxx:
-            print(xx)
-            p.ChangeDutyCycle(xx)
-            time.sleep(1)
+    #angles for the servos to rotate, x i left and right, y is up and down
+    px = [i  * 2.5  for i in reversed(range(16,35))]
+    py = [56 + i*2 for i in range(0,11)]
+    erg = []
 
 
-        px = [i  * 2.5  for i in reversed(range(16,35))]
-        py = [56 + i*2 for i in range(0,11)]
-        erg = []
-
+    #runs until ctrl + c is pressed
     try:
         while True:
+            #sets servos first y then x
             for y in py:
-                q.ChangeDutyCycle(y/10.0)
-                print("oben")
+                q.ChangeDutyCycle(float(y/10.0))
                 for x in px:
-                    #lidar.pulse()
                     p.ChangeDutyCycle(float(x/10.0))
-                    print("y" , y)
-                    #time.sleep(1.5)
-
-                    #p.ChangeDutyCycle(x/10.0)
-                    #print("x", x)        
-                    time.sleep(0.1)
+                    #sleep for more steady movement
+                    time.sleep(0.05)
+                    time.sleep(0.05)
+                    #lidar messearue
                     dist = lidar.getDistance()
                     erg.append([x,y,dist])
-                    time.sleep(0.05)
-                    #time.sleep(1)
+            #write csv, append to file after each run
             with open("output.csv", "a") as f:
                 writer = csv.writer(f)
                 writer.writerows(erg)
             erg = []
-    except KeyboardInterrupt:
-        p.stop()
-        q.stop()
-        GPIO.cleanup()
+        except KeyboardInterrupt:
+            p.stop()
+            q.stop()
+            GPIO.cleanup() 
 
 <ul class="pagination">
     <li><span class="button">Prev</span></li>
