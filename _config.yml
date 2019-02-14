@@ -1,29 +1,16 @@
 # Site settings
 title: Mr. Turtle
 subtitle: by Gis Lab Marburg
-email: giesela@students.uni-marburg.de
+website: https://www.uni-marburg.de/de/fb19/fachgebiete/phy-geo/umweltinformatik
 description: Constructing a remotely controled swimming platform stuffed with sensors for environmental remote sensing
 baseurl: #
 url: "" # the base hostname & protocol for your site
-author:
-street_address: 1234 Somewhere Road
-city: Nashville
-state: TN
-zip_code: 55555
-country: United States of America
-phone: (716) 555-5555
+author: Christoph Reudenbach und Thomas Nauss
 
 # Social settings
 500px_url:
 facebook_url: https://www.facebook.com/GeographieMarburg/?__xts__[0]=68.ARByJXKgoGm67n00NuEP-DDyz0d4PSCu6Xyd6cmr2NkgpFWDaCtrxLNh8lVMlsMa4Msa_39XkkKgX0XEPqCUq8Mr5jsoskUMFNMKZ9vJXzNSS4DxY6TlBBuTyjWcbRQx0CzAQFwR5wkBcKY8CyRvfP5thquDOxNYPQl3YAfyf-SNVCAhVeeZ
 github_url: https://github.com/lgiese/lgiese.boat.io
-gitlab_url: 
-googleplus_url:
-instagram_url: 
-linkedin_url: 
-pinterest_url:
-slack_url:
-twitter_url: 
 
 # Build settings
 markdown: kramdown

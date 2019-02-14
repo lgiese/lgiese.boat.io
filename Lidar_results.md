@@ -64,7 +64,3 @@ title: Lidar output
         ".png", sep="")) 
     } 
 
-
-
-
-<p class="copyright">&copy; Johannes Schnell. 13. September 2019 </p>

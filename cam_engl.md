@@ -86,7 +86,7 @@ title: Cameras
 
 <p>Detailed description can be found here: <a href="http://docs.pimoroni.com/pantilthat/#">http://docs.pimoroni.com/pantilthat/#</a> , <a href="https://github.com/pimoroni/pantilt-hat">https://github.com/pimoroni/pantilt-hat</a></p>
 
-<p class="copyright">&copy; Maximilian Kleebauer. 12. September 2018 </p>
+author: Maximilian Kleebauer. 12. September 2018
 
 <ul class="pagination">
         <li><span class="button">Prev</span></li>
