@@ -91,7 +91,8 @@ h2>The Second Catamaran-like Prototype</h2>
 <h3>Testing results</h3>
 <p>The propeller mounting was to fragile and steering was to indirect. Additionally Mr. Turtle had a big immersion depth, so that the platform was close to being covered by water. </p>
     
-h2>Mr. Turtle got mature</h2>
+<h2>Mr. Turtle got mature</h2>
+
 Another 3D print for a new, very robust porpeller mounting, which turnes the propellers directly satisfied our demands to the sonar boat project. There´s enough space for all the sensors and electrical devices plus waterproof boxes. The equipment can be extended without problems. It drafts on the river stably, and the platform doesn´t get really wet. It is quite agile when turning, although the manoeuvrability could still be improved.
 
 <div class="box alt">
