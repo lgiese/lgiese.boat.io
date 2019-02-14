@@ -83,7 +83,7 @@ h2>The Second Catamaran-like Prototype</h2>
 
 <div class="box alt">
 				<div class="row 50% uniform">
-					<div class="4u"><span class="image fit">Fig. 5: First Mr. Turtle platform prototype<img src="assets/images/turtle1.jpg" alt="" /></span></div>
+					<div class="4u"><span class="image fit"><img src="assets/images/turtle1.jpg" alt="" />Fig. 5: First Mr. Turtle platform prototype</span></div>
 					<div class="4u"><span class="image fit"><img style="width: 300px; height: 300px;" src="assets/images/Drive23.jpg" alt="" />Fig. 6: Proculation of platform</span></div>
                 </div>
 </div>
