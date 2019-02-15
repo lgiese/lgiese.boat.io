@@ -30,9 +30,9 @@ educational:
 <li>Manage working in groups</li>
 social:
 <li>low-cost learning possibility for young scientists and everyone else</li>
-<li>Facilitate citizens the access to science: The website shall represent an instruction for you to imitate the project and to be creative in extending it. So don´t wait, get started!</li>
+<li>Facilitate citizens the access to science: The website shall represent an instruction for you to imitate the project and to be creative in extending it. So don´t wait, get started!</li></p>
 
-Most of those aims could be achieved. Read more about the problems and failures in <a href="boat.html">Platform Development</a> or in the following paragraph.</p>
+<p>Most of those aims could be achieved. Read more about the failures and successes in <a href="boat.html">Platform Development</a> or in the following paragraph.</p>
 
 
 <h2>Result & Resume</h2>
