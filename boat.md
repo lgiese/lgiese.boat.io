@@ -89,11 +89,11 @@ We thought about solving those problems by printing the same boat again and conv
 </div>
 
 <h3>Testing results</h3>
-<p>The propeller mounting was to fragile and steering was to indirect. Additionally Mr. Turtle had a big immersion depth, so that the platform was close to being covered by water. </p>
+<p>The propeller mounting was too fragile and steering was too indirect. Additionally Mr. Turtle had a big immersion depth, so that the platform was close to being covered by water. </p>
     
 <h2>Mr. Turtle got mature</h2>
 
-Another 3D print for a new, very robust porpeller mounting, which turnes the propellers directly satisfied our demands to the sonar boat project. There´s enough space for all the sensors and electrical devices plus waterproof boxes. The equipment can be extended without problems. It drafts on the river stably, and the platform doesn´t get really wet. It is quite agile when turning, although the manoeuvrability could still be improved.
+Another 3D print for a new, very robust porpeller mounting, which turnes the propellers directly satisfied our demands to the sonar boat project. There´s enough space for all the sensors and electrical devices plus waterproof boxes. The equipment can be extended without problems. It drafts on the river stably and the platform doesn´t get wet, except from some splashes. It is quite agile when turning, although the manoeuvrability could still be improved.
 
 <div class="box alt">
 				<div class="row 50% uniform">
