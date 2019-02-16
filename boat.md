@@ -65,7 +65,7 @@ We thought about solving those problems by printing the same boat again and conv
 <h3>Testing results</h3>
 <p> The boat was floating much smoother on the water surface due to a small immersion depth. Nevertheless it was to small for our project, so we take the next step: a bigger catamaran.</p>
 
-h2>The Second Catamaran-like Prototype</h2>
+<h2>The Second Catamaran-like Prototype</h2>
 
 <p>The first floating platform is meant to be a bigger, robust version of the catamaran prototype (Abb. 5). The propulation differs as the rudder is placed behind the propellers instead of in the water (Abb. 6). The mounting of the motors is printed by a 3D printer. The model is designed by us. As the platform is much bigger and havier, we mounted two motors.</p> 
 <p>From the DIY market and from the internet we bought:</p>
