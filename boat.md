@@ -70,7 +70,7 @@ We thought about solving those problems by printing the same boat again and conv
 <p>The first floating platform is meant to be a bigger, robust version of the catamaran prototype (Abb. 5). The propulation differs as the rudder is placed behind the propellers instead of in the water (Abb. 6). The mounting of the motors is printed by a 3D printer. The model is designed by us. As the platform is much bigger and havier, we mounted two motors.</p> 
 <p>From the DIY market and from the internet we bought:</p>
 
-<li>many screws and nuts in different sizes</li>
+<p><li>many screws and nuts in different sizes</li>
 <li>threaded rods in different sizes</li>
 <li>wooden board with waterproof surface</li>
 <li>sealable plastic boxes</li>
@@ -79,7 +79,7 @@ We thought about solving those problems by printing the same boat again and conv
 <li>screw cabs</li>
 <li>glue</li>
 <li>float canisters</li>
-<li>metal plates with wholes to strengthen the float´s walls</li>
+<li>metal plates with wholes to strengthen the float´s walls</li></p>
 
 <div class="box alt">
 				<div class="row 50% uniform">
