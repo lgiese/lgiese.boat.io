@@ -63,7 +63,7 @@ We thought about solving those problems by printing the same boat again and conv
 </div>
 
 <h3>Testing results</h3>
-<p> The boat was floating much smoother on the water surface due to a small immersion depth. Nevertheless it was to small for our project, so we take the next step: a bigger catamaran.</p>
+<p> The boat was floating much smoother on the water surface due to a small immersion depth. Nevertheless it was too small for our project, so we take the next step: a bigger catamaran.</p>
 
 <h2>The Second Catamaran-like Prototype</h2>
 
