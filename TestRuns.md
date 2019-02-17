@@ -143,7 +143,7 @@ title: Gallery - Test Runs
 <!-- Container for the image gallery -->
         <div class="demo-gallery">
             <ul id="lightgallery" class="list-unstyled row">
-                <div class="justified-gallery" style="width: 680px; height: 340px; top: 6px; left: 4px;" data-responsive="assets/images/TestRun/TR1.JPG 375, assets/images/TestRun/TR1.JPG 480, assets/images/TestRun/TR1.JPG 800" data-src="{{ 'assets/images/TestRun/TR1.JPG' | absolute_url }}" data-sub-html="<h4>Preparations1</h4><p>Connecting the ArduPilot with the accu for the first Test run...</p>">
+                <div class="justified-gallery" style="width: 680px; height: 340px; top: 6px; left: 4px;" data-responsive="assets/images/TestRun/TR1.JPG 375, assets/images/TestRun/TR1.JPG 480, assets/images/TestRun/TR1.JPG 800" data-src="{{ 'assets/images/TestRun/TR1.JPG' | absolute_url }}" data-sub-html="<h4>Preparations1</h4><p>Connecting the Pixhawk with the Lipo to start the first Test run...</p>">
                     <a href="assets/images/TestRun/TR1.JPG">
                         <img class="fit-left" src="assets/images/TestRun/TR1.JPG">
                     </a>
