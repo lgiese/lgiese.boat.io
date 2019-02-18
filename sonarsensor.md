@@ -24,7 +24,7 @@ Examples for hardware setup and code examples:
 
 [https://tutorials-raspberrypi.de/entfernung-messen-mit-ultraschallsensor-hc-sr04/](https://tutorials-raspberrypi.de/entfernung-messen-mit-ultraschallsensor-hc-sr04/) (German)
 
-Although the HC-SR04 provides good measurement results, the main problem was to make the sensor waterproof. While there were considerations to dip the sensor in silicone and provide it with a mobile phone protection film in front of the sensor system, this has not been tested until now.For our tests we used the following script from [https://tutorials-raspberrypi.de/entfernung-messen-mit-ultraschallsensor-hc-sr04/](https://tutorials-raspberrypi.de/entfernung-messen-mit-ultraschallsensor-hc-sr04/), with the modification â€œdistanz = (TimeElapsed \* 34300) / 2 to simulate the runtime for a measurement under water:
+Although the HC-SR04 provides good measurement results, the main problem was to make the sensor waterproof. While there were considerations to dip the sensor in silicone and provide it with a mobile phone protection film in front of the sensor system, this has not been tested until now.For our tests we used the following script from [https://tutorials-raspberrypi.de/entfernung-messen-mit-ultraschallsensor-hc-sr04/](https://tutorials-raspberrypi.de/entfernung-messen-mit-ultraschallsensor-hc-sr04/), with the modification "distanz = (TimeElapsed \* 34300) / 2" to simulate the runtime for a measurement under water:
 
     #Bibliotheken einbinden
     import RPi.GPIO as GPIO
@@ -87,9 +87,9 @@ Although the HC-SR04 provides good measurement results, the main problem was to 
     Image 2 *JSN-SR04T (from raspberrypi-spy.co.uk)*
 </span>
 
-After the first tests with the HR-SR04 module and water resistance problems, the JSN-SR04T â€œWaterproof Ultrasonic Distance Measuring Moduleâ€ was chosen. The module also requires +5V as power supply. Measurement distances is accurate about 0.5 cm and the maximum distance is 4.5 meters.
+After the first tests with the HR-SR04 module and water resistance problems, the JSN-SR04T "Waterproof Ultrasonic Distance Measuring Module" was chosen. The module also requires +5V as power supply. Measurement distances is accurate about 0.5 cm and the maximum distance is 4.5 meters.
 
-After the first successful tests in the dry, using the same script as the HR-SR04, we had to determine that the watertightness of the ultrasonic sensor only refers to the probe, i.e.Â it can be used in rain and **not under water**. In that time, it was also difficult to attach the sonor to the body of the boat in order to achieve a good vertical depth measurement in the water.
+After the first successful tests in the dry, using the same script as the HR-SR04, we had to determine that the watertightness of the ultrasonic sensor only refers to the probe, i.e. it can be used in rain and **not under water**. In that time, it was also difficult to attach the sonor to the body of the boat in order to achieve a good vertical depth measurement in the water.
 
 Price: **around 18 Euro**
 
@@ -104,7 +104,7 @@ Examples for hardware setup and code examples:
     Image 3 *MB7354 (from maxbotix.com)*
 </span>
 
-The MB7354 â€œHRXL-MaxSonar-WRS5â€ was selected as the third test module. One reason for the selection was the weather resistance described by the manufacturer and the robust PVC housing. Actually intended for measuring snow depths, the module is equipped with an internal filter and a temperature sensor. The resolution of the sensor is specified as 1 mm at a maximum range of 5m. **As the use under water is not recommended, this sensor was not tested.**
+The MB7354 "HRXL-MaxSonar-WRS5" was selected as the third test module. One reason for the selection was the weather resistance described by the manufacturer and the robust PVC housing. Actually intended for measuring snow depths, the module is equipped with an internal filter and a temperature sensor. The resolution of the sensor is specified as 1 mm at a maximum range of 5m. **As the use under water is not recommended, this sensor was not tested.**
 
 Price: **40 $**
 
@@ -121,15 +121,15 @@ Further informations and product specifications:
 </span>
 Image 4 *Deeper Sonar (from deepersonar.com)* 
 
-The final selection was the **Deeper Smart Sonar Pro+**, a fish finder sonar.The Deeper Sonar can be connected to a smartphone via Wi-Fi and continuously transmits data. The â€œSmart fishig appâ€ from Deeper can be used to view the data. In addition, the Deeper Sonar has an integrated GPS and does not need to be connected to the Raspberry via cable connections. some information about features and technology from the Deeper website:
+The final selection was the **Deeper Smart Sonar Pro+**, a fish finder sonar. The Deeper Sonar can be connected to a smartphone via Wi-Fi and continuously transmits data. The "Smart fishig app" from Deeper can be used to view the data. In addition, the Deeper Sonar has an integrated GPS and does not need to be connected to the Raspberry via cable connections. some information about features and technology from the Deeper website:
 
 *   Extended scannig depth of 80m
-*   Dual Beam sonar for detailed scanning (290kHz 15Â°) and wide area coverage (90kHz 55Â°) by 15 scans per second
+*   Dual Beam sonar for detailed scanning (290kHz 15°) and wide area coverage (90kHz 55°) by 15 scans per second
 *   Wi-Fi range around 100m
 *   Sensor weight = 100g and diameter = 65mm
 *   Two threads (diameter 5mm) for fastening hooks or threaded rods
 
-**Data export:** The GPS positions, time values and depth (in cm) are first buffered on the mobile phone (Deeper App). The data can then be sent via WiFi to a Google Drive address. A download of the data as.csv file is possible for further analysis.
+**Data export:** The GPS positions, time values and depth (in cm) are first buffered on the mobile phone (Deeper App). The data can then be sent via WiFi to a Google Drive address. A download of the data as.csv file is possible for further analysis. Unfortunatelly when using the deeper you are dependent on thee deeper app and thereby on an android operated mobile phone.
 
 Price: **235,90 Euro**
 
@@ -138,7 +138,7 @@ Further informations:
 [https://deepersonar.com/en/deeper-smart-sonar-pro-plus/](https://deepersonar.com/en/deeper-smart-sonar-pro-plus/) [https://deepersonar.com/en/reading-your-deeper-sonar/](https://deepersonar.com/en/reading-your-deeper-sonar/)
 
 <div class="box alt">
-				<div class="row 50% uniform">
+              <div class="row 50% uniform">
               <div class="6u 12u$(medium) "><span class="image fit"><img src={%include images/SonarDeeperFun1.md %} width="10%" height="10%" alt=""/></span></div>
               <div class="6u 12u$(medium) "><span class="image fit"><img src={%include images/SonarDeeperFun2.md %} width="10%" height="10%" alt=""/></span></div>
         </div>
@@ -156,11 +156,11 @@ Image 5/6 *Function Deeper Sonar (from deepersonar.com)*
 
 **1\. First Attachment**
 
-The first attachment to the original self printed boat body worked with a simple line or fishing line. The distance between boat and deeper was about 1m. The function of the Deeper and the accuracy of the depth determination could therefore be tested on the Lahn river while it was in motion. The only problem was the GPS connection. Due to the deeperâ€™s strong buoyancy and the boatâ€™s stern waves, the deeper often came under water and interrupting the GPS signal.
+The first attachment to the original self printed boat body worked with a simple line or fishing line. The distance between boat and deeper was about 1m. The function of the Deeper and the accuracy of the depth determination could therefore be tested on the Lahn river while it was in motion. The only problem was the GPS connection. Due to the deeper's strong buoyancy and the boat's stern waves, the deeper often came under water and interrupting the GPS signal.
 
 **2\. Second Attachment**
 
-To prevent the deeper from swaying too much on the water surface, the idea of attaching the deeper to a robot arm was born. After a short search, the â€œRobot Arm (SG90)â€ was printed on the 3D printer. This should gently press the deeper onto the surface of the water to prevent build-up. Furthermore, the deeper could have been lifted out of the water if the sensor was not needed. The robot arm was too weak to lift the 100g deeper and the load too light to keep the deeper on the water surface.
+To prevent the deeper from swaying too much on the water surface, the idea of attaching the deeper to a robot arm was born. After a short search, the "Robot Arm (SG90)" was printed on the 3D printer. This should gently press the deeper onto the surface of the water to prevent build-up. Furthermore, the deeper could have been lifted out of the water if the sensor was not needed. The robot arm was too weak to lift the 100g deeper and the load too light to keep the deeper on the water surface.
 
 **Robot Arm (SG90)** [https://www.thingiverse.com/thing:2848795](https://www.thingiverse.com/thing:2848795) (.stl data available here)
 
@@ -171,7 +171,7 @@ To prevent the deeper from swaying too much on the water surface, the idea of at
 
 **3\. Third Attachent at the final catermaran**
 
-The Deeper was attached to the final Katerman by a simple and effective system (see Image 9 and 10). A threaded rod (diameter 5mm) was fixed on the thread integrated in the deeper and locked with a nut. The length of the threaded rod and the weight of the nuts used now determines the load which keeps the deeper constantly on the water surface. The threaded rod is covered with insulating tape to prevent it from sticking. The deepener can be secured with a cord and the supplied fastening ring.
+The Deeper was attached to the final catamaran by a simple and effective system (see Image 9 and 10). A threaded rod (diameter 5mm) was fixed on the thread integrated in the deeper and locked with a nut. The length of the threaded rod and the weight of the nuts used now determines the load which keeps the deeper constantly on the water surface. The threaded rod is covered with insulating tape to prevent it from sticking. The deepener can be secured with a cord and the supplied fastening ring.
 
 <div class="box alt">
 				<div class="row 50% uniform">

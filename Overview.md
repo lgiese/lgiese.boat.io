@@ -47,7 +47,7 @@ title: Overview - Sensors and more
 
 <h3>Deeper Sonar and Temperature Sensor</h3>
 
-<p> The Deeper is losely connected to the Turtle by a simple string. Like this it is drifting behind the platform on the water surface. It is working independently and is connected to a on-board mobile phone (Fig. 1) via wifi. Due to the Deeper-software data can´t be directly stored on the RasPi.</p>
+<p> The Deeper is losely connected to the Turtle by a simple string. Like this it is drifting behind the platform on the water surface. It is working independently and is connected to an on-board mobile phone (Fig. 1) via wifi. Due to the Deeper-software data can´t be directly stored on the RasPi.</p>
 <p>The waterproof Temperature Sensor is connected to the same Raspberry Pi as the lidar (Fig. 3). Thank´s to the long wire it can drift behind the boat and measure surface water temperature.</p>
 
 <h3> Literature/Info</h3>

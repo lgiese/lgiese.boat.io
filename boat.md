@@ -25,12 +25,13 @@ To build the boat we needed:</p>
 <li>1 Raspberry Pi</li>
 <li>1 Breadboard</li>
 <li>wires</li>
-<li>Deeper Sonar</li>
+<li>Deeper Smart Sonar Pro+</li>
+<li>Android operated mobile Phone</li>
 <li>1 1000kV motor, D2830 with 3.17 (1/8”) shaft</li>
 <li>Prop shaft – motor coupler, 3.17mm</li>
 <li>Speed Control. Waterproof, brushless ESC, 45A</li>
 <li>Prop shaft & tube 1/8 shaft.</li>
-<li>A Standard servo for steering</li>
+<li>Standard servos for steering</li>
 <li>A Lithium Ion Polymer battery</li>
 <li>The Pixhawk PX4 autopilot set</li>
 <li>A Radio Transmitter and receiver</li>
@@ -48,7 +49,7 @@ To build the boat we needed:</p>
 <h3>Testing results</h3>    
 
 <p>The boat was easy to put together. It drove, although quite unstable and it didn´t conquer the waves and currents easily. A big problem was size. There wasn´t much space left to store the equipment save from water and interferences between different GPS modules occured. 
-We thought about solving those problems by printing the same boat again and convert it to a catamaran but as the printing took several days we decided to start all over.</p>
+We thought about solving those problems by printing the same boat again and convert it to a catamaran but as the printing process took several days we decided to start all over.</p>
 
 
 <h2>The First Catamaran Prototype</h2>
@@ -95,6 +96,10 @@ We thought about solving those problems by printing the same boat again and conv
 
 Another 3D print for a new, very robust porpeller mounting, which turnes the propellers directly satisfied our demands to the sonar boat project. There´s enough space for all the sensors and electrical devices plus waterproof boxes. The equipment can be extended without problems. It drafts on the river stably and the platform doesn´t get wet, except from some splashes. It is quite agile when turning, although the manoeuvrability could still be improved.
 
+Additional equipment:
+
+<p><li>Lidar Lite 3</li></p>
+
 <div class="box alt">
 				<div class="row 50% uniform">
 					<div class="4u"><span class="image fit"><img src="assets/images/turtle2.jpg" alt="" />Fig. 7: First test of Mr. Turtle platform</span></div>
@@ -103,4 +108,4 @@ Another 3D print for a new, very robust porpeller mounting, which turnes the pro
 </div>
 
 <h3>Testing results</h3>
-<p>Mr. Turtle passed both tests, manual and automatic mode. The automatic mode is still unprecise as the river currents and wind is pushing the boat. </p>
+<p>Mr. Turtle passed both tests, manual and automatic mode. The automatic mode is still unprecise as the river currents and wind are pushing the boat. </p>

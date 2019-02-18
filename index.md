@@ -10,7 +10,7 @@ layout: default
 	<div class="features">
 		<article>
 			<span class="icon">
-                <img src="assets/icons/turtleicon.png" width="55%" height="74%" alt=""/>
+                <a href="{{ 'boat.html' | absolute_url }}" class="image"><img src="assets/icons/turtleicon.png" width="55%" height="74%" alt=""/></a>
             </span>
 			<div class="content">
 				<h3>Platform Development</h3>
@@ -19,7 +19,7 @@ layout: default
 		</article>
 		<article>
 			<span class="icon" align="bottom">
-            <img src="assets/icons/sensor.png" width="50%" height="75%" alt=""/>
+            <a href="{{ 'Overview.html' | absolute_url }}" class="image"><img src="assets/icons/sensor.png" width="50%" height="75%" alt=""/></a>
             </span>
 			<div class="content">
 				<h3>Sensors</h3>
@@ -28,7 +28,7 @@ layout: default
 		</article>
 		<article>
 			<span class="icon">
-            <img src="assets/icons/control.jpg" width="60%" height="70%" alt=""/>
+            <a href="{{ 'control.html' | absolute_url }}" class="image"><img src="assets/icons/control.jpg" width="60%" height="70%" alt=""/></a>
             </span>
 			<div class="content">
 				<h3>Control</h3>
@@ -36,7 +36,7 @@ layout: default
 			</div>
 		</article>
 		<article>
-			<span class="icon fa-signal"></span>
+			<a href="{{ 'control.html' | absolute_url }}" class="image"><span class="icon fa-signal"></span></a>
 			<div class="content">
 				<h3>Results</h3>
 				<p>Examples of how the data results could look like are shown here</p>
