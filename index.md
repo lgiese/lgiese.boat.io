@@ -60,7 +60,7 @@ layout: default
 			</ul>
 		</article>
 		<article>
-			<a href="{{ 'TestRuns.html' | absolute_url }}" class="image"><img src="assets/images/TestRun/TR6.jpg" alt="" /></a>
+			<a href="{{ 'TestRuns.html' | absolute_url }}" class="image"><img src="assets/images/TestRun/TR6.JPG" alt="" /></a>
 			<h3>Test Runs</h3>
 			<p>This Gallery is a documentation of our test runs, fails and successes.</p>
 			<ul class="actions">
