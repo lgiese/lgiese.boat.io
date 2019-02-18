@@ -9,34 +9,34 @@ layout: default
 	</header>
 	<div class="features">
 		<article>
-			<span class="icon">
-                <a href="{{ 'boat.html' | absolute_url }}" class="image"><img src="assets/icons/turtleicon.png" width="55%" height="74%" alt=""/></a>
-            </span>
+            <a href="{{ 'boat.html' | absolute_url }}" class="icon"><span class="icon">
+                <img src="assets/icons/turtleicon.png"  width="55%" height="74%" alt=""/>
+            </span></a>
 			<div class="content">
 				<h3>Platform Development</h3>
-				<p>Here the formation process of the Turtle is described, sucsesses and fails included </p>
+				<p>Here the formation process of the Turtle is described, successes and fails included </p>
 			</div>
 		</article>
 		<article>
-			<span class="icon" align="bottom">
-            <a href="{{ 'Overview.html' | absolute_url }}" class="image"><img src="assets/icons/sensor.png" width="50%" height="75%" alt=""/></a>
-            </span>
+			<a href="{{ 'Overview.html' | absolute_url }}" class="icon"><span class="icon" align="bottom">
+            <img src="assets/icons/sensor.png" width="50%" height="75%" alt=""/>
+            </span></a>
 			<div class="content">
 				<h3>Sensors</h3>
 				<p>In this menu you find informations about Lidar, Sonar, tamperature sensors and camera and how to use them on the Raspberry Pi</p>
 			</div>
 		</article>
 		<article>
-			<span class="icon">
-            <a href="{{ 'control.html' | absolute_url }}" class="image"><img src="assets/icons/control.jpg" width="60%" height="70%" alt=""/></a>
-            </span>
+			<a href="{{ 'control.html' | absolute_url }}" class="icon"><span class="icon">
+            <img src="assets/icons/control.jpg" margin-left = "100px" width="60%" height="70%" alt=""/>
+            </span></a>
 			<div class="content">
 				<h3>Control</h3>
 				<p>Automatic and manual driving mode are explained</p>
 			</div>
 		</article>
 		<article>
-			<a href="{{ 'control.html' | absolute_url }}" class="image"><span class="icon fa-signal"></span></a>
+			<a href="{{ 'Sonar_results.html' | absolute_url }}" class="icon"><span class="icon fa-signal"></span></a>
 			<div class="content">
 				<h3>Results</h3>
 				<p>Examples of how the data results could look like are shown here</p>

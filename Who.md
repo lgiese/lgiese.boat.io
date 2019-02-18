@@ -37,8 +37,8 @@ social:
 
 <h2>Result & Resume</h2>
  
- <p>This way we ended up building Mr. Turtle, a survey platform with a modular setup, which can be adjusted very easy to anyone´s intrest. You can steer it manually and let it drive in automatic mode. It is equipped with a Lidar, SonarRasPi, Watertemperature sensor, camera and a GoPro Camera. The proculation system is strong enough to handel river currents of 7km/h. So its suitable for calm rivers and lakes but not for the sea or any white water. </p>
- <p>On the way to get there, we had to solve technical problems, we never came in contact with before. We could apply the programming tasks, which we learned during the master. Except for the Sonar, which works exclusively with the appropriate App, we didn´t use extra devices to store data. On the one hand the applied way of education increased interest of participants. On the other hand it made it more difficult to split tasks reasonably. Lidar, Pixhawk, Sonar and mobile phone included, the total costs lie between 350€ and 600€, so we kept costs low, but they could be lower.</p>
+ <p>This way we ended up building Mr. Turtle, a survey platform with a modular setup, which can be adjusted very easy to anyone´s intrest. You can steer it manually and let it drive in automatic mode. It is equipped with a Lidar, Sonar, RasPi, watertemperature sensor, camera and a GoPro Camera. The proculation system is strong enough to handel river currents of 7km/h. So its suitable for calm rivers and lakes but not for the sea or any white water. </p>
+ <p>On the way to get there, we had to solve technical problems, we never came in contact with before. We could apply the programming tasks, which we learned during the master. Except for the Sonar, which works exclusively with the appropriate App, we didn´t use extra devices to store data. On the one hand the applied way of education increased interest of participants. On the other hand it made it more difficult to split tasks reasonably. Lidar, Pixhawk, Sonar and mobile phone included, the total costs lie between 400€ and 700€, so we kept costs low, but they could be lower.</p>
  
  
  <h2>Outlook</h2>
