@@ -47,11 +47,11 @@ With this Python 2 script the surface temperature is measured:
     temp_messen()
 
 <ul class="pagination">
-        <li><a href="{{ 'cam.html' | absolute_url }}" class="button">Prev</a></li>
+        <li><a href="{{ 'cam_engl.html' | absolute_url }}" class="button">Prev</a></li>
         <li><a href="{{ 'Overview.html' | absolute_url }}" class="page">1</a></li>
         <li><a href="{{ 'sonarsensor.html' | absolute_url }}" class="page">2</a></li>
         <li><a href="{{ 'lidar.html' | absolute_url }}" class="page">3</a></li>
-        <li><a href="{{ 'cam.html' | absolute_url }}" class="page">4</a></li>
+        <li><a href="{{ 'cam_engl.html' | absolute_url }}" class="page">4</a></li>
         <li><a href="{{ 'temperature.html' | absolute_url }}" class="page active">5</a></li>
         <li><a href="{{ 'Overview.html' | absolute_url }}" class="button">Next</a></li>
 </ul>
