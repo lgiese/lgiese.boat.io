@@ -28,7 +28,7 @@ layout: default
 		</article>
 		<article>
 			<a href="{{ 'control.html' | absolute_url }}" class="icon"><span class="icon">
-            <img src="assets/icons/control.jpg" margin-left = "100px" width="60%" height="70%" alt=""/>
+            <img src="assets/icons/control.jpg" width="60%" height="70%" alt=""/>
             </span></a>
 			<div class="content">
 				<h3>Control</h3>

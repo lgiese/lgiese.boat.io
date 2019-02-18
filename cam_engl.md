@@ -90,10 +90,10 @@ author: Maximilian Kleebauer. 12. September 2018
 
 <ul class="pagination">
         <li><a href="{{ 'lidar.html' | absolute_url }}" class="button">Prev</a></li>
-        <li><a href="{{ 'Overview.html | absolute_url }}" class="page active">1</a></li>
-        <li><a href="{{ 'sonarsensor.html' | absolute_url }}" class="page active">2</a></li>
-        <li><a href="{{ 'lidar.html' | absolute_url }}" class="page active">3</a></li>
+        <li><a href="{{ 'Overview.html | absolute_url }}" class="page">1</a></li>
+        <li><a href="{{ 'sonarsensor.html' | absolute_url }}" class="page">2</a></li>
+        <li><a href="{{ 'lidar.html' | absolute_url }}" class="page">3</a></li>
         <li><a href="{{ 'cam.html' | absolute_url }}" class="page active">4</a></li>
-        <li><a href="{{ 'temperature.html' | absolute_url }}" class="page active">5</a></li>
+        <li><a href="{{ 'temperature.html' | absolute_url }}" class="page">5</a></li>
         <li><a href="{{ 'temperature.html' | absolute_url }}" class="button">Next</a></li>
 </ul>

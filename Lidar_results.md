@@ -66,8 +66,8 @@ title: Lidar output
 
 <ul class="pagination">
         <li><a href="{{ 'Sonar_results.html' | absolute_url }}" class="button">Prev</a></li>
-        <li><a href="{{ 'Sonar_results.html | absolute_url }}" class="page active">1</a></li>
+        <li><a href="{{ 'Sonar_results.html | absolute_url }}" class="page">1</a></li>
         <li><a href="{{ 'Lidar_results.html' | absolute_url }}" class="page active">2</a></li>
-        <li><a href="{{ 'Cameras_results.html' | absolute_url }}" class="page active">3</a></li>
+        <li><a href="{{ 'Cameras_results.html' | absolute_url }}" class="page">3</a></li>
         <li><a href="{{ 'Cameras_results.html | absolute_url }}" class="button">Next</a></li>
 </ul>
