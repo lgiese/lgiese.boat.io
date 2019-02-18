@@ -52,7 +52,7 @@ layout: default
 	</header>
 	<div class="posts">
 		<article>
-			<a href="{{ 'WorkinProg.html' | absolute_url }}" class="image"><img src="assets/images/WorkInProg/WIP1.jpg" alt="" /></a>
+			<a href="{{ 'WorkinProg.html' | absolute_url }}" class="image"><img src="assets/images/WorkInProg/WIP1.JPG" alt="" /></a>
 			<h3>Work in progress</h3>
 			<p>Here you can get an impression of our working procedure. Step by step we´re approaching our target: An autonomous driving platform equipped with running sensors.</p>
 			<ul class="actions">
