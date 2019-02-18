@@ -90,7 +90,7 @@ We thought about solving those problems by printing the same boat again and conv
 </div>
 
 <h3>Testing results</h3>
-<p>The propeller mounting was too fragile and steering was too indirect. Additionally Mr. Turtle had a big immersion depth, so that the platform was close to being covered by water. </p>
+<p>The catamaran-like platform is floating on the water and even on solid ground, what makes it very easy for Mr. Turtle to get on the water. Trudging through muddy riverbanks can be skipped. Nevertheless the propeller mounting was too fragile and steering was too indirect. Additionally Mr. Turtle had a big immersion depth, so that the platform was close to being covered by water. </p>
     
 <h2>Mr. Turtle got mature</h2>
 

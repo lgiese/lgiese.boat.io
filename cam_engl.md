@@ -74,7 +74,7 @@ title: Cameras
 
 <p>There are a lot of possible ways for a water-resistant camera integration. On deck of the TURTLE, the Raspberry has been laid into a waterproof box, the camera tentative wrapped with foil. But there are countless ideas online. For example 3d printing cases: <a href="https://tinkererblog.wordpress.com/2015/07/28/how-i-designed-a-compact-weatherproof-raspberry-pi-case/">https://tinkererblog.wordpress.com/2015/07/28/how-i-designed-a-compact-weatherproof-raspberry-pi-case/</a></p>
 
-<p>To move the camera vertial and horizontal a "Pan-Tilt HAT" by Pimoroni Ltd. has been additionally integrated.</p>
+<p>To move the camera vertial and horizontal a "Pan-Tilt HAT" by Pimoroni Ltd. has been integrated additionally.</p>
 
 <span class="image right">
     {%include images/CamPanTilt.md %}
