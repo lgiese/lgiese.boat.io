@@ -11,13 +11,10 @@ title: Cameras
 
 <p>The Camera is plugged into the CSI-Interface.</p>
 
-
 <span class="image left">
     {%include images/Cam1Klee.md %}
     Fig. 1: *Camera connected to the Raspberry Pi*
 </span>
-
-
 
 <p> Afterwards the camera can be activated using the following settings.</p>
 
@@ -90,7 +87,7 @@ author: Maximilian Kleebauer. 12. September 2018
 
 <ul class="pagination">
         <li><a href="{{ 'lidar.html' | absolute_url }}" class="button">Prev</a></li>
-        <li><a href="{{ 'Overview.html | absolute_url }}" class="page">1</a></li>
+        <li><a href="{{ 'Overview.html' | absolute_url }}" class="page">1</a></li>
         <li><a href="{{ 'sonarsensor.html' | absolute_url }}" class="page">2</a></li>
         <li><a href="{{ 'lidar.html' | absolute_url }}" class="page">3</a></li>
         <li><a href="{{ 'cam.html' | absolute_url }}" class="page active">4</a></li>

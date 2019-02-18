@@ -176,6 +176,15 @@ The Raspberry Pi Camera was programmed, that it takes a picture once per minute 
                 </div>              
         </ul>
 </div>
+    
+    
+<ul class="pagination">
+        <li><a href="{{ 'Lidar_results.html' | absolute_url }}" class="button">Prev</a></li>
+        <li><a href="{{ 'Sonar_results.html' | absolute_url }}" class="page">1</a></li>
+        <li><a href="{{ 'Lidar_results.html' | absolute_url }}" class="page">2</a></li>
+        <li><a href="{{ 'Cameras_results.html' | absolute_url }}" class="page active">3</a></li>
+        <li><a href="{{ 'Sonar_results.html' | absolute_url }}" class="button">Next</a></li>
+</ul>
 
 <script type="text/javascript">
 $(document).ready(function(){
@@ -196,11 +205,3 @@ $(document).ready(function(){
 <script src="{{ 'assets/js/main.js' | absolute_url }}"></script> 
 
 <section>
-    
-<ul class="pagination">
-        <li><a href="{{ 'Lidar_results.html' | absolute_url }}" class="button">Prev</a></li>
-        <li><a href="{{ 'Sonar_results.html | absolute_url }}" class="page active">1</a></li>
-        <li><a href="{{ 'Lidar_results.html' | absolute_url }}" class="page active">2</a></li>
-        <li><a href="{{ 'Cameras_results.html' | absolute_url }}" class="page active">3</a></li>
-        <li><a href="{{ 'Sonar_results.html | absolute_url }}" class="button">Next</a></li>
-</ul>
