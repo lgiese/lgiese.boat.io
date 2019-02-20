@@ -14,14 +14,15 @@ title: About the Project
             Fig. 1: Mr. Turtle: A remotely controlled floating platform, equipped with sonar, lidar and temperature sensor.
         </span>
 
-<p>The Project has many aims in several fields (technical, scientific, educational, social): 
-
+<p>The Project has many aims in several fields (technical, scientific, educational, social):</p>
+ 
+<p>
 technical:
 <li>Connect environmental informatics and Robotics: Applied Informatics</li>
 <li>Working Open source and solely with software for which we don´t need any extra purchases</li>
 scientific:
 <li>Finding a way to survey river plus surrounding remotely at once</li>
-<li>Offer an alternative to flying drones, which have problems to survey rivers because of overgrowing dense vegetation</li>
+<li>Offer an alternative to flying drones, which have problems to survey rivers because of overgrowing and dense vegetation</li>
 <li>Rise attention of the state of waterbodies next to your place</li>
 educational:
 <li>Learning by Doing</li>
@@ -37,7 +38,7 @@ social:
 
 <h2>Result & Resume</h2>
  
- <p>This way we ended up building Mr. Turtle, a survey platform with a modular setup, which can be adjusted very easy to anyone´s intrest. You can steer it manually and let it drive in automatic mode. It is equipped with a Lidar, Sonar, RasPi, watertemperature sensor, camera and a GoPro Camera. The proculation system is strong enough to handel river currents of 7km/h. So its suitable for calm rivers and lakes but not for the sea or any white water. </p>
+ <p>This way we ended up building Mr. Turtle, a survey platform with a modular setup, which can be adjusted very easy to anyone´s intrest. You can steer it manually and let it drive in automatic mode. It is equipped with a Lidar, Sonar, RasPi, water temperature sensor, camera and a GoPro Camera. The proculation system is strong enough to handel river currents of 7km/h. So its suitable for calm rivers and lakes but not for the sea or any white water. </p>
  <p>On the way to get there, we had to solve technical problems, we never came in contact with before. We could apply the programming tasks, which we learned during the master. Except for the Sonar, which works exclusively with the appropriate App, we didn´t use extra devices to store data. On the one hand the applied way of education increased interest of participants. On the other hand it made it more difficult to split tasks reasonably. Lidar, Pixhawk, Sonar and mobile phone included, the total costs lie between 400€ and 700€, so we kept costs low, but they could be lower.</p>
  
  
