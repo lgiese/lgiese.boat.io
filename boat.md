@@ -103,10 +103,10 @@ Another 3D print for a new, very robust porpeller mounting, which turnes the pro
 
 Additional equipment:
 
-<p><li><a href="https://buy.garmin.com/de-DE/DE/p/557294">Garmin </a>LIDAR Lite v3</li></p>
+<p><li><a href="https://buy.garmin.com/de-DE/DE/p/557294">Garmin </a>LIDAR Lite v3</li>
 <li><a href="{{ 'cam_engl.html' | absolute_url }}">Pan-Tilt HAT</a></li>
 <li>Micro servos</li>
-<li>Bigger drone propellers</li>
+<li>Bigger drone propellers</li></p>
 
 <div class="box alt">
 				<div class="row 50% uniform">
