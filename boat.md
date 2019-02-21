@@ -99,14 +99,16 @@ We thought about solving those problems by printing the same boat again and conv
     
 <h2>Mr. Turtle got mature</h2>
 
-Another 3D print for a new, very robust porpeller mounting, which turnes the propellers directly satisfied our demands to the sonar boat project. There´s enough space for all the sensors and electrical devices plus waterproof boxes. The equipment can be extended without problems. It drafts on the river stably and the platform doesn´t get wet, except from some splashes. It is quite agile when turning, although the manoeuvrability could still be improved.
+Another 3D print for a new self designed very robust porpeller mounting, which turnes the propellers directly satisfied our demands to the sonar boat project. There´s enough space for all the sensors and electrical devices plus waterproof boxes. The equipment can be extended without problems. It drafts on the river stably and the platform doesn´t get wet, except from some splashes. It is quite agile when turning, although the manoeuvrability could still be improved.
 
 Additional equipment:
 
 <p><li><a href="https://buy.garmin.com/de-DE/DE/p/557294">Garmin </a>LIDAR Lite v3</li>
 <li><a href="{{ 'cam_engl.html' | absolute_url }}">Pan-Tilt HAT</a></li>
 <li>Micro servos</li>
-<li>Bigger drone propellers</li></p>
+<li>Bigger drone propellers</li>
+<li>4 cogs</li>
+<li>More raw material for the 3D printer</li></p>
 
 <div class="box alt">
 				<div class="row 50% uniform">
@@ -116,4 +118,4 @@ Additional equipment:
 </div>
 
 <h3>Testing results</h3>
-<p>Mr. Turtle passed both tests, manual and automatic mode. The automatic mode is still unprecise as the river currents and wind are pushing the boat. Nevertheless all electronic equipment could be stored waterproof and there´s space left for more equipment. All sensors are working as they are supposed to. Mr. Turtle has no problems to float over and get through vegetation. The Limno-explorer is ready for usage and we are really happy with the result.</p>
+<p>Mr. Turtle passed both tests, manual and automatic mode. The automatic mode is still unprecise as the river currents and wind are pushing the boat. Yet all sensors are working as they are supposed to and are installed unsusceptible against vibrations. Mr. Turtle has no problems to float over and get through vegetation. All in all the Limno-explorer is ready for usage and we are really happy with the result.</p>
