@@ -10,4 +10,4 @@ There are two possibilities to tell the boat, where to go: manually with a fligh
 
 <h3>Automatic Mode</h3>
 
-<p><span class="image right"><img style="width: 400px; height: 298px;" src="assets/images/PixhawkCon.jpg" alt="" />Fig. 2: Pixhawk connections to: Lithium Ion Polymer Battery, Telemetry radio, GPS, buzzer, receiver, servo, motor</span>With the <a href="http://ardupilot.org/about">ArduPilot Software</a>, an open source autopilot system, the route of Mr. Turtle can be planned in advance. With the GPS the pixhawk (Abb. 2) is able to lead the boat along this route.</p>
+<p><span class="image right"><img style="width: 400px; height: 298px;" src="assets/images/PixhawkCon.jpg" alt="" />Fig. 2: Pixhawk connections to: Lithium Ion Polymer Battery, Telemetry radio, GPS, buzzer, receiver, servo, motor </span>With the <a href="http://ardupilot.org/about">ArduPilot Software</a>, an open source autopilot system, the route of Mr. Turtle can be planned in advance. With the GPS the <a href="http://ardupilot.org/copter/docs/common-pixhawk-overview.html">pixhawk</a> (Abb. 2) is able to lead the boat along this route.</p>

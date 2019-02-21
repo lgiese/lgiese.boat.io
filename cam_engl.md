@@ -3,7 +3,7 @@ layout: page
 title: Cameras
 ---
 
-<p>To investigate the visible spectrum beyond the water surface MR TURTLE (The Unmanned Radio Telemetry Limnology-Exlorer) is equipped with a camera on deck. Due to the pre-existing Raspberry Pi the decision was made during the preliminary stages to choose a Raspberry Pi Camera. Furthermore relevant arguments are the cheap price as well as the unproblematic installation.</p>
+<p>To investigate the visible spectrum beyond the water surface MR TURTLE (The Unmanned Radio Telemetry Limnology-Exlorer) is equipped with a camera on deck. Due to the pre-existing Raspberry Pi the decision was made during the preliminary stages to choose a <a href="https://www.raspberrypi.org/products/camera-module-v2/">Raspberry Pi Camera</a>. Furthermore relevant arguments are the cheap price as well as the unproblematic installation.</p>
 
 <p>The following text describes the Raspberry Pi Camera V2.1 installation, including an example for an automatic picture recording script combined with an auto boot script using crontab.</p>
 
@@ -78,7 +78,7 @@ title: Cameras
 
 <span class="image right">
     {%include images/CamPanTilt.md %}
-    Fig. 2: **PIMORONI** *Tech Treasure for Makers. [https://shop.pimoroni.com/products/pan-tilt-hat?variant=33704345034](https://shop.pimoroni.com/products/pan-tilt-hat?variant=33704345034)* 
+    Fig. 2: **PIMORONI** Tech Treasure for Makers. [https://shop.pimoroni.com/products/pan-tilt-hat?variant=33704345034](https://shop.pimoroni.com/products/pan-tilt-hat?variant=33704345034) 
 </span>
 
 <p>Detailed description can be found here: <a href="http://docs.pimoroni.com/pantilthat/#">http://docs.pimoroni.com/pantilthat/#</a> , <a href="https://github.com/pimoroni/pantilt-hat">https://github.com/pimoroni/pantilt-hat</a></p>

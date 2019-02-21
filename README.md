@@ -4,11 +4,11 @@ This website is the documention of a sonar survey platform project by students o
 
 ![Editorial Theme](assets/images/screenshot.jpg "Editorial Theme")
 
-by [HTML5 UP](https://html5up.net/) and served by Jekyll.
+by ![HTML5 UP](https://html5up.net/) and served by ![Jekyll](https://jekyllrb.com/ "Jekyll").
 
 # Questions
 
-If you would like to ask a question, feel free to do so by contacting us via our [department](https://www.uni-marburg.de/de/fb19/fachgebiete/phy-geo).
+If you would like to ask a question, feel free to do so by contacting us via our [department](https://www.uni-marburg.de/de/fb19/fachgebiete/phy-geo "department environmental informatics").
 
 # Credits
 

@@ -9,7 +9,7 @@ title: Lidar
     <div class="row 50% uniform">
         <div class="4u"><span class="image fit">
             <img src="{{ 'assets/images/LidarServos.JPG ' | absolute_url }}" alt=""/>
-            Fig. 1: LidarLite and 2 servos. The video (right) demonstrates the servo-driven motion system, which scans the environment.
+            Fig. 1: LidarLite with <a href= "https://shop.pimoroni.com/products/pan-tilt-hat?variant=33704345034">Pan-Tilt HAT</a> and 2 servos. The video (right) demonstrates the servo-driven motion system, which scans the environment.
         </span></div>
         <div class="4u"><video style="width: 610px; height: 433px;" controls>
                 <source src="{{ 'assets/images/LidarAtwork_mute.mp4 ' | absolute_url }}" type="video/mp4">
@@ -17,7 +17,7 @@ title: Lidar
     </div>
 </div>
 
-<p> Garmin Lidar Lite 3 ( Lidar = laser detection and ranging, Fig. 1) is a sensor, which calculates distance by emitting and recieving Laser light. In combination with the servo-driven motion system (Vid. 1) we generate a 3 dimensional point cloud of the environment (see <a href="{{ 'Lidar_results.html' | absolute_url }}">point cloud example</a>).</p>
+<p><a  href="https://buy.garmin.com/de-DE/DE/p/557294">Garmin LIDAR Lite v3</a> (Lidar = laser detection and ranging, Fig. 1) is a sensor, which calculates distance by emitting and recieving Laser light. In combination with the servo-driven motion system (Vid. 1) we generate a 3 dimensional point cloud of the environment (see <a href="{{ 'Lidar_results.html' | absolute_url }}">point cloud example</a>).</p>
 
 <h3>Setup</h3>
 
@@ -37,6 +37,12 @@ title: Lidar
 <li>Install the I2C tools</li>
 <li>In our case the RasPi Kernel needed to be downgraded to version 4.4 before the lidar was communicating with the RasPi (see <a href="https://forum-raspberrypi.de/forum/thread/21114-firmware-u-kernel-downgrade-mit-rpi-update/">Raspberry Pi Forum</a>)</li>
  </p>
+ 
+<h3>Make the lidar move</h3>
+
+<p>To make the lidar scan a big area instead of just a strip of riparian vegetation and to control the scanning pattern we chose the <a href= "https://shop.pimoroni.com/products/pan-tilt-hat?variant=33704345034">Pan-Tilt HAT</a> motion system, what we already tested for the RasPi camera. We bought another<a href="https://shop.pimoroni.com/products/adafruit-mini-pan-tilt-kit-assembled-with-micro-servos">Pan-Tilt HAT and 2 micro servos.</a>
+</p>
+
 
 <h3>Lidar Script</h3>
 
@@ -96,6 +102,7 @@ When the lidar is attached to the platform it is orientated sideways. This way i
             p.stop()
             q.stop()
             GPIO.cleanup() 
+
 
 <ul class="pagination">
         <li><a href="{{ 'sonarsensor.html' | absolute_url }}" class="button">Prev</a></li>
