@@ -10,7 +10,7 @@ author: Christoph Reudenbach und Thomas Nauss
 # Social settings
 500px_url:
 facebook_url: https://www.facebook.com/GeographieMarburg/?__xts__[0]=68.ARByJXKgoGm67n00NuEP-DDyz0d4PSCu6Xyd6cmr2NkgpFWDaCtrxLNh8lVMlsMa4Msa_39XkkKgX0XEPqCUq8Mr5jsoskUMFNMKZ9vJXzNSS4DxY6TlBBuTyjWcbRQx0CzAQFwR5wkBcKY8CyRvfP5thquDOxNYPQl3YAfyf-SNVCAhVeeZ
-github_url: https://github.com/lgiese/lgiese.boat.io
+github_url: https://github.com/gisma/boatOne/tree/master/Lidar-Lite-master
 
 # Build settings
 markdown: kramdown

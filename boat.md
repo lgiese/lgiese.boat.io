@@ -50,7 +50,7 @@ To build the boat we needed:</p>
 
 <h3>Testing results</h3>    
 
-<p>The boat was easy to put together. It drove, although quite unstable and it didn´t conquer the waves and currents easily. A big problem was size. There wasn´t much space left to store the equipment save from water and interferences between different GPS modules occured. 
+<p>The boat was easy to put together. It drove, although quite unstable and it didn´t conquer waves and currents easily. A big problem was size. There wasn´t much space left to store the equipment save from water and interferences between different GPS and telemetry modules occured. 
 We thought about solving those problems by printing the same boat again and convert it to a catamaran but as the printing process took several days we decided to start all over.</p>
 
 
@@ -91,15 +91,16 @@ We thought about solving those problems by printing the same boat again and conv
 				<div class="row 50% uniform">
 					<div class="4u"><span class="image fit"><img src="assets/images/turtle1.jpg" alt="" />Fig. 5: First Mr. Turtle platform prototype</span></div>
 					<div class="4u"><span class="image fit"><img style="width: 300px; height: 300px;" src="assets/images/Drive23.jpg" alt="" />Fig. 6: Proculation of platform</span></div>
+                    <div class="4u"><span class="image fit"><img src="assets/images/telemetry_pix.jpg" alt="" />Fig. 7: Box with enough space to store Pixhawk, telemetry module and reciever</span></div>
                 </div>
 </div>
 
 <h3>Testing results</h3>
-<p>The catamaran-like platform is floating on the water and even on solid ground, what makes it very easy for Mr. Turtle to get on the water. Trudging through muddy riverbanks can be skipped. Nevertheless the propeller mounting was too fragile and steering was too indirect. Additionally Mr. Turtle had a big immersion depth, so that the platform was close to being covered by water. </p>
+<p>The catamaran-like platform is floating on the water and even on solid ground, what makes it very easy for Mr. Turtle to get on the water. Trudging through muddy riverbanks can be skipped. By  building the platform we solved the problem of mutual interfering electronics (Fig. 7) Nevertheless the propeller mounting was too fragile and steering was too indirect. Additionally Mr. Turtle had a big immersion depth, so that the platform was close to being covered by water. </p>
     
 <h2>Mr. Turtle got mature</h2>
 
-Another 3D print for a new self designed very robust porpeller mounting, which turnes the propellers directly satisfied our demands to the sonar boat project. There´s enough space for all the sensors and electrical devices plus waterproof boxes. The equipment can be extended without problems. It drafts on the river stably and the platform doesn´t get wet, except from some splashes. It is quite agile when turning, although the manoeuvrability could still be improved.
+Figure 8 shows the final result of our Unmanned Radio Telemetry Limno-Explorer. Another 3D print for a new self designed very robust porpeller mounting (Fig. 9), which turnes the propellers directly satisfied our demands to the sonar boat project. There´s enough space for all the sensors and electrical devices plus waterproof boxes. The equipment can be extended without problems. It drafts on the river stably and the platform doesn´t get wet, except from some splashes. It is quite agile when turning, although the manoeuvrability could still be improved.
 
 Additional equipment:
 
@@ -112,8 +113,8 @@ Additional equipment:
 
 <div class="box alt">
 				<div class="row 50% uniform">
-					<div class="4u"><span class="image fit"><img src="assets/images/turtle2.jpg" alt="" />Fig. 7: First test of Mr. Turtle platform</span></div>
-					<div class="4u"><span class="image fit"><img src="assets/images/RotorAerial2.JPG" alt="" />Fig. 8: Proculation system of Mr. Turtle</span></div>
+					<div class="4u"><span class="image fit"><img src="assets/images/turtle2.jpg" alt="" />Fig. 8: First test of Mr. Turtle platform</span></div>
+					<div class="4u"><span class="image fit"><img src="assets/images/RotorAerial2.JPG" alt="" />Fig. 9: Proculation system of Mr. Turtle</span></div>
                 </div>
 </div>
 

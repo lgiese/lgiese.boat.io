@@ -142,10 +142,10 @@ title: Gallery - Test Runs
 <!--style="width: 600px; height: 400px; top: 6px; left: 700px; opacity: 1;" -->
 <!-- Container for the image gallery -->
         <div class="demo-gallery">
-            <ul id="lightgallery" class="list-unstyled row">
-                <div class="justified-gallery" style="width: 680px; height: 340px; top: 6px; left: 4px;" data-responsive="assets/images/TestRun/TR1.JPG 375, assets/images/TestRun/TR1.JPG 480, assets/images/TestRun/TR1.JPG 800" data-src="{{ 'assets/images/TestRun/TR1.JPG' | absolute_url }}" data-sub-html="<h4>Preparations1</h4><p>Connecting the Pixhawk with the Lipo to start the first Test run...</p>">
+            <ul id="lightgallery" class="unstyled row">
+                <div class="justified-gallery" style = "width: 680px; height: 340px; top: 6px; left: 4px;" data-responsive="assets/images/TestRun/TR1.JPG 375, assets/images/TestRun/TR1.JPG 480, assets/images/TestRun/TR1.JPG 800" data-src="{{ 'assets/images/TestRun/TR1.JPG' | absolute_url }}" data-sub-html="<h4>Preparations1</h4><p>Connecting the Pixhawk with the Lipo to start the first Test run...</p>">
                     <a href="assets/images/TestRun/TR1.JPG">
-                        <img class="fit-left" src="assets/images/TestRun/TR1.JPG">
+                        <img class="4u" src="assets/images/TestRun/TR1.JPG">
                     </a>
                 </div>
                 <div class="justified-gallery" style="width: 680px; height: 340px; top: 6px; left: 4px;" data-responsive="assets/images/TestRun/TR2.JPG 375, assets/images/TestRun/TR2.JPG 480, assets/images/TestRun/TR2.JPG 800" data-src="{{ 'assets/images/TestRun/TR2.JPG' | absolute_url }}" data-sub-html="<h4>Preparations2</h4><p>Last steps to get ready for sea?!</p>">
@@ -188,12 +188,11 @@ title: Gallery - Test Runs
 
 <h1>Videos</h1>
 
-<div class="justified-gallery" data-sub-html="<h4>3D-printed boat</h4><p>Test run of 3D-printed boat</p>">
-                <video style="width: 420px; height: 500px; top: 6px; right: 180px; padding-right: 30px; border: solid 1px rgba(210, 215, 217, 0.75); border-top: 0; border-left: 0; border-bottom: 0;" controls>
-                    <source src="{{ 'assets/images/TestRun/VideoTR4_Komp11.mp4' | absolute_url }}" type="video/mp4">
-                </video>
-                </div>
-
+<p><span class="image left" data-sub-html="<h4>Mr. Turtle #1</h4><p>Smoking motor</p>"><video controls><source src="{{ 'assets/videos/smokingEngine.mp4' | absolute_url }}" type="video/mp4">
+                </video><b>Mr. Turtle #1</b> Smoking motor</span><h4>Mr. Turtle #1</h4>For some reason one of the two motors started smoking when we were testing our first floating platform prototype. Consequently the proculation system must be improved.</p>
+                                
+<p><span class="image right" data-sub-html="<h4>Mr. Turtle #2</h4><p>Test run of the final version of Mr. Turtle</p>"><video controls><source src="{{ 'assets/videos/index_trans3.mp4' | absolute_url }}" type="video/mp4">
+    </video><b>Mr. Turtle #2</b> Test run of the final version of Mr. Turtle</span><h4>Mr. Turtle #2</h4>This is a test run of the final Mr. Turtle version without sensors. We are testing if updrift is strong enough, the manoevrability in manual mode and the automatic mode. Updrift was big enough, the platform stayed largely clean. Manoevrability was appropriate for Mr. Turtle´s size and it´s function as a Limno-explorer, what means moving with low speed while performing measurements. And the biggest success: Automatic mode is working!!!</p>
 
 <script type="text/javascript">
 $(document).ready(function(){
