@@ -70,7 +70,7 @@ We thought about solving those problems by printing the same boat again and conv
 
 <h2>The Second Catamaran-like Prototype</h2>
 
-<p>The first floating platform is meant to be a bigger, robust version of the catamaran prototype (Fig. 5). The propulation differs, as the rudder is placed behind the propellers instead of in the water (Fig. 6). The mounting of the motors is printed by a 3D printer. The model is designed by us. As the platform is much bigger and havier, we mounted two motors.</p> 
+<p>The first floating platform (Fig. 5) is meant to be a bigger, robust version of the first catamaran prototype. The propulation differs, as the rudder is placed behind the propellers instead of in the water (Fig. 6). The mounting of the motors is printed by a 3D printer. The model is designed by us. As the platform is much bigger and havier, we mounted two motors.</p> 
 <p>From the DIY market and from the internet we bought:</p>
 
 <p><li>many screws, nuts and washers in different sizes</li>
@@ -91,7 +91,7 @@ We thought about solving those problems by printing the same boat again and conv
 				<div class="row 50% uniform">
 					<div class="4u"><span class="image fit"><img src="assets/images/turtle1.jpg" alt="" />Fig. 5: First Mr. Turtle platform prototype</span></div>
 					<div class="4u"><span class="image fit"><img style="width: 300px; height: 300px;" src="assets/images/Drive23.jpg" alt="" />Fig. 6: Proculation of platform</span></div>
-                    <div class="4u"><span class="image fit"><img src="assets/images/telemetry_pix.jpg" alt="" />Fig. 7: Box with enough space to store Pixhawk, telemetry module and reciever</span></div>
+                    <div class="4u$"><span class="image fit"><img src="assets/images/telemetry_pix.jpg" alt="" />Fig. 7: Box with enough space to store Pixhawk, telemetry module and reciever</span></div>
                 </div>
 </div>
 
