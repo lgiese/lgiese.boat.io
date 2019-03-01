@@ -138,7 +138,26 @@ title: Gallery - Test Runs
 
 <section>
     <body>
+
+<h1>Videos</h1>
+
+<p><span class="image left" data-sub-html="<h4>Test Run 3D printed Boat</h4><p>Water in the boat</p>"><video controls><source src="{{ 'assets/videos/TRboat3D.mp4' | absolute_url }}" type="video/mp4">
+                </video><b>Test Run 3D printed Boat</b> Water in the boat</span><h4>3D printed Boat</h4>For the first test drive we connected the boat to a fishing line for security reasons. The boat is quite manoeuvrable but also very shaky while driving. The latter is a big minus concerning our plans to scan riparian vegetation. In addition the wave-powered propulsion system makes it quite difficult to prevent water from penetrating into the boat. We endet up being a hair's breadth away from wet and broken electronics.</p>
+                
+<p><span class="image right" data-sub-html="<h4>The Catamaran</h4><p>Testing the first catamaran prototype</p>"><video controls><source src="{{ 'assets/videos/TRcatamaran.mp4' | absolute_url }}" type="video/mp4">
+                </video><b>Testing the first catamaran prototype</b> Water in the boat</span><h4>The Catamaran</h4>The catamaran is an approach to achieve a more stable drift and more space for the sensors. More mayyybee yes, but stable drift... OOuups... not yet!</p>
+                
+<p><span class="image left" data-sub-html="<h4>Mr. Turtle #1</h4><p>Smoking motor</p>"><video controls><source src="{{ 'assets/videos/smokingEngine.mp4' | absolute_url }}" type="video/mp4">
+                </video><b>Mr. Turtle #1</b> Smoking motor</span><h4>Mr. Turtle #1</h4>Mr. Turtle #1 drifts much more stable on the watersurface. For some reason one of the two motors started smoking when we were testing our first floating platform prototype. Consequently the propulsion system hat to be improved.</p>
+                                
+<p><span class="image right" data-sub-html="<h4>Mr. Turtle #2</h4><p>Test run of the final version of Mr. Turtle</p>"><video controls><source src="{{ 'assets/videos/index_trans3.mp4' | absolute_url }}" type="video/mp4">
+    </video><b>Mr. Turtle #2</b> Manual test run of the final version of Mr. Turtle without sensors</span><h4>Mr. Turtle #2</h4>This is a test run of the final Mr. Turtle version without sensors in manual mode. We are testing if updrift is strong enough, the manoevrability in manual mode and the automatic mode. Updrift was strong enough, the platform stayed largely dry. Manoevrability was appropriate for Mr. Turtle´s size and it´s function as a Limno-explorer, what means moving with low speed while performing measurements. One Problem with the propulsion couldn´t be fixed by now: The cogwheels turn discontinously and sometimes get stuck somehow, so it might happend that the propellers have to be rearranged parallel manually.
+    </p>
     
+<p><span class="image left" data-sub-html="<h4>Mr. Turtle #1</h4><p>Smoking motor</p>"><video controls><source src="{{ 'assets/videos/smokingEngine.mp4' | absolute_url }}" type="video/mp4">
+                </video><b>Mr. Turtle #2</b> Manual and automatic test run of the final Mr. Turtle version with full sensor equipment</span>While testing the boat with full sensor equippment we had our biggest success: Automatic mode is working!!!</p>
+                
+<h1>More Images</h1>
 <!--style="width: 600px; height: 400px; top: 6px; left: 700px; opacity: 1;" -->
 <!-- Container for the image gallery -->
         <div class="demo-gallery">
@@ -186,13 +205,7 @@ title: Gallery - Test Runs
         </ul>
 </div>
 
-<h1>Videos</h1>
 
-<p><span class="image left" data-sub-html="<h4>Mr. Turtle #1</h4><p>Smoking motor</p>"><video controls><source src="{{ 'assets/videos/smokingEngine.mp4' | absolute_url }}" type="video/mp4">
-                </video><b>Mr. Turtle #1</b> Smoking motor</span><h4>Mr. Turtle #1</h4>For some reason one of the two motors started smoking when we were testing our first floating platform prototype. Consequently the proculation system must be improved.</p>
-                                
-<p><span class="image right" data-sub-html="<h4>Mr. Turtle #2</h4><p>Test run of the final version of Mr. Turtle</p>"><video controls><source src="{{ 'assets/videos/index_trans3.mp4' | absolute_url }}" type="video/mp4">
-    </video><b>Mr. Turtle #2</b> Test run of the final version of Mr. Turtle</span><h4>Mr. Turtle #2</h4>This is a test run of the final Mr. Turtle version without sensors. We are testing if updrift is strong enough, the manoevrability in manual mode and the automatic mode. Updrift was big enough, the platform stayed largely clean. Manoevrability was appropriate for Mr. Turtle´s size and it´s function as a Limno-explorer, what means moving with low speed while performing measurements. And the biggest success: Automatic mode is working!!!</p>
 
 <script type="text/javascript">
 $(document).ready(function(){
