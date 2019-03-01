@@ -138,7 +138,6 @@ title: Gallery - Test Runs
 
 <section>
     <body>
-
 <h1>Videos</h1>
 
 <p><span class="image left" data-sub-html="<h4>Test Run 3D printed Boat</h4><p>Water in the boat</p>"><video controls><source src="{{ 'assets/videos/TRboat3D.mp4' | absolute_url }}" type="video/mp4">
@@ -157,6 +156,13 @@ title: Gallery - Test Runs
 <p><span class="image left" data-sub-html="<h4>Mr. Turtle #1</h4><p>Smoking motor</p>"><video controls><source src="{{ 'assets/videos/smokingEngine.mp4' | absolute_url }}" type="video/mp4">
                 </video><b>Mr. Turtle #2</b> Manual and automatic test run of the final Mr. Turtle version with full sensor equipment</span>While testing the boat with full sensor equippment we had our biggest success: Automatic mode is working!!!</p>
                 
+</body>
+<hr class="major" />
+
+<section>
+<section>    
+<body>
+<div class="row 200%">
 <h1>More Images</h1>
 <!--style="width: 600px; height: 400px; top: 6px; left: 700px; opacity: 1;" -->
 <!-- Container for the image gallery -->
@@ -205,8 +211,6 @@ title: Gallery - Test Runs
         </ul>
 </div>
 
-
-
 <script type="text/javascript">
 $(document).ready(function(){
     $('#lightgallery').lightGallery();
@@ -224,6 +228,6 @@ $(document).ready(function(){
 <script src="{{ 'assets/js/util.js' | absolute_url }}"></script>
 <!--[if lte IE 8]><script src="{{ 'assets/js/ie/respond.min.js' | absolute_url }}"></script><![endif]-->
 <script src="{{ 'assets/js/main.js' | absolute_url }}"></script>
+</div>
 </body> 
-
 <section>
