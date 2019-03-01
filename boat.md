@@ -50,7 +50,7 @@ To build the boat we needed:</p>
 
 <h3>Testing results</h3>    
 
-<p>The boat was easy to put together. It drove, although quite unstable and it didn´t conquer waves and currents easily. A big problem was size. There wasn´t much space left to store the equipment save from water and interferences between different GPS and telemetry modules occured. 
+<p>The boat was easy to put together. It drove, although quite unstable and it didn´t conquer waves and currents easily. A big problem was the size. There wasn´t much space left to store the equipment save from water and interferences between different GPS and telemetry modules occured. 
 We thought about solving those problems by printing the same boat again and convert it to a catamaran but as the printing process took several days we decided to start all over.</p>
 
 

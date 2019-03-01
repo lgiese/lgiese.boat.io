@@ -141,10 +141,10 @@ title: Gallery - Test Runs
 <h1>Videos</h1>
 
 <p><span class="image left" data-sub-html="<h4>Test Run 3D printed Boat</h4><p>Water in the boat</p>"><video controls><source src="{{ 'assets/videos/TRboat3D.mp4' | absolute_url }}" type="video/mp4">
-                </video><b>Test Run 3D printed Boat</b> Water in the boat</span><h4>3D printed Boat</h4>For the first test drive we connected the boat to a fishing line for security reasons. The boat is quite manoeuvrable but also very shaky while driving. The latter is a big minus concerning our plans to scan riparian vegetation. In addition the wave-powered propulsion system makes it quite difficult to prevent water from penetrating into the boat. We endet up being a hair's breadth away from wet and broken electronics.</p>
+                </video><b>3D printed Boat</b> Water in the boat</span><h4>3D printed Boat</h4>For the first test drive we connected the boat to a fishing line for security reasons. The boat is quite manoeuvrable but also very shaky while driving. The latter is a big minus concerning our plans to scan riparian vegetation. In addition the wave-powered propulsion system makes it quite difficult to prevent water from penetrating into the boat. We endet up being a hair's breadth away from wet and broken electronics.</p>
                 
 <p><span class="image right" data-sub-html="<h4>The Catamaran</h4><p>Testing the first catamaran prototype</p>"><video controls><source src="{{ 'assets/videos/TRcatamaran.mp4' | absolute_url }}" type="video/mp4">
-                </video><b>Testing the first catamaran prototype</b> Water in the boat</span><h4>The Catamaran</h4>The catamaran is an approach to achieve a more stable drift and more space for the sensors. More mayyybee yes, but stable drift... OOuups... not yet!</p>
+                </video><b>The Catamaran</b> Testing the first catamaran prototype</span><h4>The Catamaran</h4>The catamaran is an approach to achieve a more stable drift and more space for the sensors. More mayyybee yes, but stable drift... OOuups... not yet!</p>
                 
 <p><span class="image left" data-sub-html="<h4>Mr. Turtle #1</h4><p>Smoking motor</p>"><video controls><source src="{{ 'assets/videos/smokingEngine.mp4' | absolute_url }}" type="video/mp4">
                 </video><b>Mr. Turtle #1</b> Smoking motor</span><h4>Mr. Turtle #1</h4>Mr. Turtle #1 drifts much more stable on the watersurface. For some reason one of the two motors started smoking when we were testing our first floating platform prototype. Consequently the propulsion system hat to be improved.</p>
@@ -153,7 +153,7 @@ title: Gallery - Test Runs
     </video><b>Mr. Turtle #2</b> Manual control mode</span><h4>Mr. Turtle #2</h4>This is a test run of the final Mr. Turtle version without sensors in manual mode. We are testing if updrift is strong enough, the manoevrability in manual mode and the automatic mode. Updrift was strong enough, the platform stayed largely dry. Manoevrability was appropriate for Mr. Turtle´s size and it´s function as a Limno-explorer, what means moving with low speed while performing measurements. One Problem with the propulsion couldn´t be fixed by now: The cogwheels turn discontinously and sometimes get stuck somehow, so it might happend that the propellers have to be rearranged parallel manually.
     </p>
     
-<p><span class="image left" data-sub-html="<h4>Mr. Turtle #2</h4><p>Automatic control mode</p>"><video controls><source src="{{ 'assets/videos/TR4automatic.mp4' | absolute_url }}" type="video/mp4">
+<p><span class="image left" style="width: 405px; height: 720px;" data-sub-html="<h4>Mr. Turtle #2</h4><p>Automatic control mode</p>"><video  controls><source src="{{ 'assets/videos/TR4automatic.mp4' | absolute_url }}" type="video/mp4">
                 </video><b>Mr. Turtle #2</b> Automatic control mode</span>While testing the boat with full sensor equippment we had our biggest success: Automatic mode is working!!!</p>
                 
 </body>
