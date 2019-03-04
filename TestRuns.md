@@ -164,7 +164,7 @@ title: Gallery - Test Runs
 <section>
 <section>    
 <body>
-<div class="row 200%">
+<!--<div class="row 200%">-->
 <h1>More Images</h1>
 <!--style="width: 600px; height: 400px; top: 6px; left: 700px; opacity: 1;" -->
 <!-- Container for the image gallery -->
@@ -285,6 +285,6 @@ $(document).ready(function(){
 <script src="{{ 'assets/js/util.js' | absolute_url }}"></script>
 <!--[if lte IE 8]><script src="{{ 'assets/js/ie/respond.min.js' | absolute_url }}"></script><![endif]-->
 <script src="{{ 'assets/js/main.js' | absolute_url }}"></script>
-</div>
+<!--</div> -->
 </body> 
 <section>
