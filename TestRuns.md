@@ -210,57 +210,57 @@ title: Gallery - Test Runs
                         <img class="fit-right" src="assets/images/TestRun/TR8.JPG">
                     </a>
                 </div>
-                <div class="justified-gallery" style = "width: 450px; height: 500px; top: 6px; left: 4px;" data-responsive="assets/images/TestRun/TR9.JPG 375, assets/images/TestRun/TR9.JPG 480, assets/images/TestRun/TR9.JPG 800" data-src="{{ 'assets/images/TestRun/TR9.JPG' | absolute_url }}" data-sub-html="<h4>Preparations1</h4><p>The camtamaran prototype gets ready to be off to the sea... uuhm river</p>">
+                <div class="justified-gallery" style = "width: 450px; height: 500px; top: 6px; left: 4px;" data-responsive="assets/images/TestRun/TR9.JPG 375, assets/images/TestRun/TR9.JPG 480, assets/images/TestRun/TR9.JPG 800" data-src="{{ 'assets/images/TestRun/TR9.JPG' | absolute_url }}" data-sub-html="<h4>The camtamaran - 1</h4><p>The camtamaran prototype gets ready to be off to the sea... uuhm river</p>">
                     <a href="assets/images/TestRun/TR9.JPG">
                         <img class="4u" src="assets/images/TestRun/TR9.JPG">
                     </a>
                 </div>
-                <div class="justified-gallery" style="width: 380px; height: 500px; top: 6px; left: 4px;" data-responsive="assets/images/TestRun/TR10.JPG 375, assets/images/TestRun/TR10.JPG 480, assets/images/TestRun/TR10.JPG 800" data-src="{{ 'assets/images/TestRun/TR10.JPG' | absolute_url }}" data-sub-html="<h4>Preparations2</h4><p>Attaching the GoPro camera to the camtamaran prototype</p>">
+                <div class="justified-gallery" style="width: 380px; height: 500px; top: 6px; left: 4px;" data-responsive="assets/images/TestRun/TR10.JPG 375, assets/images/TestRun/TR10.JPG 480, assets/images/TestRun/TR10.JPG 800" data-src="{{ 'assets/images/TestRun/TR10.JPG' | absolute_url }}" data-sub-html="<h4>The camtamaran - 2</h4><p>Attaching the GoPro camera to the camtamaran prototype</p>">
                     <a href="assets/images/TestRun/TR10.JPG">
                         <img class="fit-right" src="assets/images/TestRun/TR10.JPG">
                     </a>
                 </div>
-                <div class="justified-gallery" style="width: 600px; height: 340px; top: 6px; left: 4px;" data-responsive="assets/images/TestRun/TR11.JPG 375, assets/images/TestRun/TR11.JPG 480, assets/images/TestRun/TR11.JPG 800" data-src="{{ 'assets/images/TestRun/TR11.JPG' | absolute_url }}" data-sub-html="<h4>Preparations3</h4><p>Charging the Camera. The Sonar (black ball) will be connected to the boat by a line.</p>">
+                <div class="justified-gallery" style="width: 600px; height: 340px; top: 6px; left: 4px;" data-responsive="assets/images/TestRun/TR11.JPG 375, assets/images/TestRun/TR11.JPG 480, assets/images/TestRun/TR11.JPG 800" data-src="{{ 'assets/images/TestRun/TR11.JPG' | absolute_url }}" data-sub-html="<h4>The camtamaran - 3</h4><p>Meeting on the Lahn river...</p>">
                     <a href="assets/images/TestRun/TR11.JPG">
                         <img class="fit-left" src="assets/images/TestRun/TR11.JPG">
                     </a>
                 </div>
-                <div class="justified-gallery" style="width: 680px; height: 340px; top: 6px; left: 4px;" data-responsive="assets/images/TestRun/TR12.JPG 375, assets/images/TestRun/TR12.JPG 480, assets/images/TestRun/TR12.JPG 800" data-src="{{ 'assets/images/TestRun/TR12.JPG' | absolute_url }}" data-sub-html="<h4>SavetyStuff1</h4><p>Preparing the safety boat...</p>">
+                <div class="justified-gallery" style="width: 680px; height: 340px; top: 6px; left: 4px;" data-responsive="assets/images/TestRun/TR12.JPG 375, assets/images/TestRun/TR12.JPG 480, assets/images/TestRun/TR12.JPG 800" data-src="{{ 'assets/images/TestRun/TR12.JPG' | absolute_url }}" data-sub-html="<h4>The camtamaran - 4</h4><p>... and carrying on floating together.</p>">
                     <a href="assets/images/TestRun/TR12.JPG">
                         <img class="fit-right" src="assets/images/TestRun/TR12.JPG">
                     </a>
                 </div>
-                <div class="justified-gallery" style="width: 680px; height: 340px; top: 6px; left: 4px;" data-responsive="assets/images/TestRun/TR13.JPG 375, assets/images/TestRun/TR13.JPG 480, assets/images/TestRun/TR13.JPG 800" data-src="{{ 'assets/images/TestRun/TR13.JPG' | absolute_url }}" data-sub-html="<h4>SavetyStuff2</h4><p>... And don´t forget the savety west! The Sonar gets a safety fishing rod.</p>">
+                <div class="justified-gallery" style="width: 680px; height: 340px; top: 6px; left: 4px;" data-responsive="assets/images/TestRun/TR13.JPG 375, assets/images/TestRun/TR13.JPG 480, assets/images/TestRun/TR13.JPG 800" data-src="{{ 'assets/images/TestRun/TR13.JPG' | absolute_url }}" data-sub-html="<h4>Mr. Turtle #1 - 1</h4><p>Heavy transport of Mr. Turtle #1</p>">
                     <a href="assets/images/TestRun/TR13.JPG">
                         <img class="fit-left" src="assets/images/TestRun/TR13.JPG">
                     </a>
                 </div>
-                <div class="justified-gallery" style="width: 680px; height: 340px; top: 6px; left: 4px;" data-responsive="assets/images/TestRun/TR14.JPG 375, assets/images/TestRun/TR14.JPG 480, assets/images/TestRun/TR14.JPG 800" data-src="{{ 'assets/images/TestRun/TR14.JPG' | absolute_url }}" data-sub-html="<h4>SavetyStuff3</h4><p>The Sonar gets a safety fishing rod 2...</p>">
+                <div class="justified-gallery" style="width: 680px; height: 340px; top: 6px; left: 4px;" data-responsive="assets/images/TestRun/TR14.JPG 375, assets/images/TestRun/TR14.JPG 480, assets/images/TestRun/TR14.JPG 800" data-src="{{ 'assets/images/TestRun/TR14.JPG' | absolute_url }}" data-sub-html="<h4>Mr. Turtle #1 - 2</h4><p>Mr. Turtle #1 is looking forward to it´s first rideon the water</p>">
                     <a href="assets/images/TestRun/TR14.JPG">
                         <img class="fit-right" src="assets/images/TestRun/TR14.JPG">
                     </a>
                 </div>
-                <div class="justified-gallery" style="width: 680px; height: 340px; top: 6px; left: 4px;" data-responsive="assets/images/TestRun/TR15.JPG 375, assets/images/TestRun/TR15.JPG 480, assets/images/TestRun/TR15.JPG 800" data-src="{{ 'assets/images/TestRun/TR15.JPG' | absolute_url }}" data-sub-html="<h4>AfterCheck</h4><p>Is everything alright after the first drive?</p>">
+                <div class="justified-gallery" style="width: 680px; height: 340px; top: 6px; left: 4px;" data-responsive="assets/images/TestRun/TR15.JPG 375, assets/images/TestRun/TR15.JPG 480, assets/images/TestRun/TR15.JPG 800" data-src="{{ 'assets/images/TestRun/TR15.JPG' | absolute_url }}" data-sub-html="<h4>Mr. Turtle #1 - 3</h4><p>Is everything alright after the drive?</p>">
                     <a href="assets/images/TestRun/TR15.JPG">
                         <img class="fit-left" src="assets/images/TestRun/TR15.JPG">
                     </a>
                 </div>
-                <div class="justified-gallery" style="width: 680px; height: 340px; top: 6px; left: 4px;" data-responsive="assets/images/TestRun/TR16.JPG 375, assets/images/TestRun/TR16.JPG 480, assets/images/TestRun/TR16.JPG 800" data-src="{{ 'assets/images/TestRun/TR16.JPG' | absolute_url }}" data-sub-html="<h4>WaterInBoat</h4><p>AAHHH, Water in the boat!</p>">
+                <div class="justified-gallery" style="width: 680px; height: 340px; top: 6px; left: 4px;" data-responsive="assets/images/TestRun/TR16.JPG 375, assets/images/TestRun/TR16.JPG 480, assets/images/TestRun/TR16.JPG 800" data-src="{{ 'assets/images/TestRun/TR16.JPG' | absolute_url }}" data-sub-html="<h4>Mr. Turtle #1 - 4</h4><p>A little bit of water was intruding into the the canisters :(</p>">
                     <a href="assets/images/TestRun/TR16.JPG">
                         <img class="fit-right" src="assets/images/TestRun/TR16.JPG">
                     </a>
                 </div>
-                <div class="justified-gallery" style="width: 680px; height: 340px; top: 6px; left: 4px;" data-responsive="assets/images/TestRun/TR17.JPG 375, assets/images/TestRun/TR17.JPG 480, assets/images/TestRun/TR17.JPG 800" data-src="{{ 'assets/images/TestRun/TR17.JPG' | absolute_url }}" data-sub-html="<h4>AfterCheck</h4><p>Is everything alright after the first drive?</p>">
+                <div class="justified-gallery" style="width: 680px; height: 340px; top: 6px; left: 4px;" data-responsive="assets/images/TestRun/TR17.JPG 375, assets/images/TestRun/TR17.JPG 480, assets/images/TestRun/TR17.JPG 800" data-src="{{ 'assets/images/TestRun/TR17.JPG' | absolute_url }}" data-sub-html="<h4>Mr. Turtle #1 - 5</h4><p>Some cables are led though the canisters in the back. They are being reconnected and the canisters are put back in place.</p>">
                     <a href="assets/images/TestRun/TR17.JPG">
                         <img class="fit-left" src="assets/images/TestRun/TR17.JPG">
                     </a>
                 </div>
-                <div class="justified-gallery" style="width: 680px; height: 340px; top: 6px; left: 4px;" data-responsive="assets/images/TestRun/TR18.JPG 375, assets/images/TestRun/TR18.JPG 480, assets/images/TestRun/TR18.JPG 800" data-src="{{ 'assets/images/TestRun/TR18.JPG' | absolute_url }}" data-sub-html="<h4>WaterInBoat</h4><p>AAHHH, Water in the boat!</p>">
+                <div class="justified-gallery" style="width: 680px; height: 340px; top: 6px; left: 4px;" data-responsive="assets/images/TestRun/TR18.JPG 375, assets/images/TestRun/TR18.JPG 480, assets/images/TestRun/TR18.JPG 800" data-src="{{ 'assets/images/TestRun/TR18.JPG' | absolute_url }}" data-sub-html="<h4>Mr. Turtle #1 - 6</h4><p>Some cables are led though the canisters in the back. They are being reconnected and the canisters are put back in place.</p>">
                     <a href="assets/images/TestRun/TR18.JPG">
                         <img class="fit-right" src="assets/images/TestRun/TR18.JPG">
                     </a>
                 </div>
-                <div class="justified-gallery" style="width: 680px; height: 340px; top: 6px; left: 4px;" data-responsive="assets/images/TestRun/TR19.JPG 375, assets/images/TestRun/TR19.JPG 480, assets/images/TestRun/TR19.JPG 800" data-src="{{ 'assets/images/TestRun/TR19.JPG' | absolute_url }}" data-sub-html="<h4>WaterInBoat</h4><p>AAHHH, Water in the boat!</p>">
+                <div class="justified-gallery" style="width: 500px; height: 500px; top: 6px; left: 4px;" data-responsive="assets/images/TestRun/TR19.JPG 375, assets/images/TestRun/TR19.JPG 480, assets/images/TestRun/TR19.JPG 800" data-src="{{ 'assets/images/TestRun/TR19.JPG' | absolute_url }}" data-sub-html="<h4>Mr. Turtle #2</h4><p>Mr. Turtle #2 - our final result!</p>">
                     <a href="assets/images/TestRun/TR19.JPG">
                         <img class="fit-right" src="assets/images/TestRun/TR19.JPG">
                     </a>
