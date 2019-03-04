@@ -1,9 +1,9 @@
 ---
 layout: page
-title: From boat to katamaran
+title: From Boat to Floating Platform
 ---
 
-<p>The development of Mr. Turtle involved many testings, optimizing processes, failures and re-starts. We tested several prototypes until we worked our way forward to a version, which fulfilled all requirements. The main difficulties were:</p>
+<p>The development of Mr. Turtle involved many testings, optimizing processes, failures and re-starts. We tested several prototypes until we ended up with a version, which fulfilled all requirements. The main difficulties were:</p>
 
 <p><li>to store all sensors</li>
 <li>to store all sensors waterproof</li>
@@ -66,11 +66,11 @@ We thought about solving those problems by printing the same boat again and conv
 </div>
 
 <h3>Testing results</h3>
-<p> The boat was floating much smoother on the water surface due to a small immersion depth. Nevertheless it was too small for our project, so we take the next step: a bigger catamaran.</p>
+<p> The boat was floating much smoother on the water surface due to a small immersion depth and two contact points instead of one. Nevertheless it was too small for our project, so we take the next step: a bigger catamaran.</p>
 
 <h2>The Second Catamaran-like Prototype</h2>
 
-<p>The first floating platform (Fig. 5) is meant to be a bigger, robust version of the first catamaran prototype. The propulation differs, as the rudder is placed behind the propellers instead of in the water (Fig. 6). The mounting of the motors is printed by a 3D printer. The model is designed by us. As the platform is much bigger and havier, we mounted two motors.</p> 
+<p>The first floating platform (Fig. 5) is meant to be a bigger, robust version of the first catamaran prototype. The propulsion differs, as the rudder is placed behind the propellers instead of in the water (Fig. 6). The mounting of the motors is printed by a 3D printer. The model is designed by us. As the platform is much bigger and havier, we mounted two motors.</p> 
 <p>From the DIY market and from the internet we bought:</p>
 
 <p><li>many screws, nuts and washers in different sizes</li>
@@ -96,11 +96,11 @@ We thought about solving those problems by printing the same boat again and conv
 </div>
 
 <h3>Testing results</h3>
-<p>The catamaran-like platform is floating on the water and even on solid ground, what makes it very easy for Mr. Turtle to get on the water. Trudging through muddy riverbanks can be skipped. By  building the platform we solved the problem of mutual interfering electronics (Fig. 7) Nevertheless the propeller mounting was too fragile and steering was too indirect. Additionally Mr. Turtle had a big immersion depth, so that the platform was close to being covered by water. </p>
+<p>The catamaran-like platform is floating on the water and even on solid ground, what makes it very easy for Mr. Turtle to get on the water. Trudging through muddy riverbanks can be skipped. By building the platform we solved the problem of mutual interfering electronics (Fig. 7) Nevertheless the propeller mounting was too fragile and steering was too indirect. Additionally Mr. Turtle had a big immersion depth, so that the platform was close to being covered by water. </p>
     
 <h2>Mr. Turtle got mature</h2>
 
-Figure 8 shows the final result of our Unmanned Radio Telemetry Limno-Explorer. Another 3D print for a new self designed very robust porpeller mounting (Fig. 9), which turnes the propellers directly satisfied our demands to the sonar boat project. There´s enough space for all the sensors and electrical devices plus waterproof boxes. The equipment can be extended without problems. It drafts on the river stably and the platform doesn´t get wet, except from some splashes. It is quite agile when turning, although the manoeuvrability could still be improved.
+Figure 8 shows the final result of our Unmanned Radio Telemetry Limno-Explorer. Another 3D print for a new self designed very robust porpeller mounting (Fig. 9), which turnes the propellers directly satisfied our demands to the sonar boat project. We added an extra floating canister in the front, as the propulsion system push Mr. Turtle´s front into the water. To the left and right canister in the front we attached two skids made out of foam material to stabilize driving direction. 
 
 Additional equipment:
 
@@ -108,7 +108,8 @@ Additional equipment:
 <li><a href="{{ 'cam_engl.html' | absolute_url }}">Pan-Tilt HAT</a></li>
 <li>Micro servos</li>
 <li>Bigger drone propellers</li>
-<li>4 cogs</li>
+<li>4 cog wheels</li>
+<li>float canisters</li>
 <li>More raw material for the 3D printer</li></p>
 
 <div class="box alt">
@@ -119,4 +120,5 @@ Additional equipment:
 </div>
 
 <h3>Testing results</h3>
-<p>Mr. Turtle passed both tests, manual and automatic mode. The automatic mode is still unprecise as the river currents and wind are pushing the boat. Yet all sensors are working as they are supposed to and are installed unsusceptible against vibrations. Mr. Turtle has no problems to float over and get through vegetation. All in all the Limno-explorer is ready for usage and we are really happy with the result.</p>
+<p>There´s enough space for all the sensors and electrical devices plus waterproof boxes. The equipment can be extended without problems. It drafts on the river stably and the platform doesn´t get wet, except from some splashes. It is quite agile when turning, although the manoeuvrability could still be improved. 
+Mr. Turtle passed both tests, manual and automatic mode. The automatic mode is still unprecise as the river currents and wind are pushing the boat. Yet all sensors are working as they are supposed to and are installed unsusceptible against vibrations. Mr. Turtle has no problems to float over and get through vegetation. All in all the Limno-explorer is ready for usage and we are really happy with the result.</p>

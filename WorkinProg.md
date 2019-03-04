@@ -171,8 +171,6 @@ title: Gallery - Work In Progress
         </ul>
 </div>
 
-<h1>Videos</h1>
-
 <script type="text/javascript">
 $(document).ready(function(){
     $('#lightgallery').lightGallery();
