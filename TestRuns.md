@@ -153,7 +153,7 @@ title: Gallery - Test Runs
     </video><b>Mr. Turtle #2</b> Manual control mode</span><h4>Mr. Turtle #2</h4>This is a test run of the final Mr. Turtle version without sensors in manual mode. We are testing if updrift is strong enough, the manoevrability in manual mode and the automatic mode. Updrift was strong enough, the platform stayed largely dry. Manoevrability was appropriate for Mr. Turtle´s size and it´s function as a Limno-explorer, what means moving with low speed while performing measurements. One Problem with the propulsion couldn´t be fixed by now: The cogwheels turn discontinously and sometimes get stuck somehow, so it might happend that the propellers have to be rearranged parallel manually.
     </p>
     
-<p><span class="image left" style="width: 405px; height: 720px;" data-sub-html="<h4>Mr. Turtle #2</h4><p>Automatic control mode</p>"><video  controls><source src="{{ 'assets/videos/TR4automatic.mp4' | absolute_url }}" type="video/mp4">
+<p><span class="image left" style="width: 405px; height: 720px;" data-sub-html="<h4>Mr. Turtle #2</h4><p>Automatic control mode</p>"><video  controls><source src="{{ 'assets/videos/TR4automatic270.mp4' | absolute_url }}" type="video/mp4">
                 </video><b>Mr. Turtle #2</b> Automatic control mode</span>While testing the boat with full sensor equippment we had our biggest success: Automatic mode is working!!!</p>
                 
 </body>
