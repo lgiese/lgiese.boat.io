@@ -154,17 +154,17 @@ title: Gallery - Test Runs
 <p><span class="image left" data-sub-html="<h4>Mr. Turtle #2</h4><p>Test run of the final version of Mr. Turtle</p>"><video controls><source src="{{ 'assets/videos/index_trans3.mp4' | absolute_url }}" type="video/mp4">
     </video><b>Mr. Turtle #2</b> Manual control mode</span><h4>Mr. Turtle #2</h4>This is a test run of the final Mr. Turtle version without sensors in manual mode. We are testing if updrift is strong enough, the manoevrability in manual mode and the automatic mode. Updrift was strong enough, the platform stayed largely dry. Manoevrability was appropriate for Mr. Turtle´s size and it´s function as a Limno-explorer, what means moving with low speed while performing measurements. One Problem with the propulsion couldn´t be fixed by now: The cogwheels turn discontinously and sometimes get stuck somehow, so it might happend that the propellers have to be rearranged parallel manually.
     </p>
-    
-<p><span class="image right" style="width: 405px; height: 720px;" data-sub-html="<h4>Mr. Turtle #2</h4><p>Automatic control mode</p>"><video  controls><source src="{{ 'assets/videos/TR4automatic270.mp4' | absolute_url }}" type="video/mp4">
-                </video><b>Mr. Turtle #2</b> Automatic control mode</span>While testing the boat with full sensor equippment we had our biggest success: Automatic mode is working!!!</p>
-                
+<div class="row 200%">    
+<p><span class="image left" style="width: 405px; height: 720px;" data-sub-html="<h4>Mr. Turtle #2</h4><p>Automatic control mode</p>"><video  controls><source src="{{ 'assets/videos/TR4automatic270.mp4' | absolute_url }}" type="video/mp4">
+                </video><b>Mr. Turtle #2</b> Automatic control mode</span>Finally, while testing the boat with full sensor equippment we achieved our main objective: <b>Automatic mode is working!!!</b></p>
+</div>               
 </body>
 <hr class="major" />
 
 <section>
 <section>    
 <body>
-<!--<div class="row 200%">-->
+<div class="row 200%">
 <h1>More Images</h1>
 <!--style="width: 600px; height: 400px; top: 6px; left: 700px; opacity: 1;" -->
 <!-- Container for the image gallery -->
@@ -210,12 +210,12 @@ title: Gallery - Test Runs
                         <img class="fit-right" src="assets/images/TestRun/TR8.JPG">
                     </a>
                 </div>
-                <div class="justified-gallery" style = "width: 450px; height: 500px; top: 6px; left: 4px;" data-responsive="assets/images/TestRun/TR9.JPG 375, assets/images/TestRun/TR9.JPG 480, assets/images/TestRun/TR9.JPG 800" data-src="{{ 'assets/images/TestRun/TR9.JPG' | absolute_url }}" data-sub-html="<h4>Preparations1</h4><p>Connecting the Pixhawk with the Lipo to start the first Test run...</p>">
+                <div class="justified-gallery" style = "width: 450px; height: 500px; top: 6px; left: 4px;" data-responsive="assets/images/TestRun/TR9.JPG 375, assets/images/TestRun/TR9.JPG 480, assets/images/TestRun/TR9.JPG 800" data-src="{{ 'assets/images/TestRun/TR9.JPG' | absolute_url }}" data-sub-html="<h4>Preparations1</h4><p>The camtamaran prototype gets ready to be off to the sea... uuhm river</p>">
                     <a href="assets/images/TestRun/TR9.JPG">
                         <img class="4u" src="assets/images/TestRun/TR9.JPG">
                     </a>
                 </div>
-                <div class="justified-gallery" style="width: 380px; height: 500px; top: 6px; left: 4px;" data-responsive="assets/images/TestRun/TR10.JPG 375, assets/images/TestRun/TR10.JPG 480, assets/images/TestRun/TR10.JPG 800" data-src="{{ 'assets/images/TestRun/TR10.JPG' | absolute_url }}" data-sub-html="<h4>Preparations2</h4><p>Last steps to get ready for sea?!</p>">
+                <div class="justified-gallery" style="width: 380px; height: 500px; top: 6px; left: 4px;" data-responsive="assets/images/TestRun/TR10.JPG 375, assets/images/TestRun/TR10.JPG 480, assets/images/TestRun/TR10.JPG 800" data-src="{{ 'assets/images/TestRun/TR10.JPG' | absolute_url }}" data-sub-html="<h4>Preparations2</h4><p>Attaching the GoPro camera to the camtamaran prototype</p>">
                     <a href="assets/images/TestRun/TR10.JPG">
                         <img class="fit-right" src="assets/images/TestRun/TR10.JPG">
                     </a>
@@ -285,6 +285,6 @@ $(document).ready(function(){
 <script src="{{ 'assets/js/util.js' | absolute_url }}"></script>
 <!--[if lte IE 8]><script src="{{ 'assets/js/ie/respond.min.js' | absolute_url }}"></script><![endif]-->
 <script src="{{ 'assets/js/main.js' | absolute_url }}"></script>
-<!--</div> -->
+</div>
 </body> 
 <section>
