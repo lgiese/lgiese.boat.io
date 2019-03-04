@@ -143,7 +143,7 @@ title: Gallery - Test Runs
 <p><span class="image left" data-sub-html="<h4>Test Run 3D printed Boat</h4><p>Water in the boat</p>"><video controls><source src="{{ 'assets/videos/TRboat3D.mp4' | absolute_url }}" type="video/mp4">
                 </video><b>3D printed Boat</b> Water in the boat</span><h4>3D printed Boat</h4>For the first test drive we connected the boat to a fishing line for security reasons. The boat is quite manoeuvrable but also very shaky while driving. The latter is a big minus concerning our plans to scan riparian vegetation. In addition the wave-powered propulsion system makes it quite difficult to prevent water from penetrating into the boat. We endet up being a hair's breadth away from wet and broken electronics.</p>
                 
-<p><span class="image right" data-sub-html="<h4>The Catamaran</h4><p>Testing the first catamaran prototype</p>"><video controls><source src="{{ 'assets/videos/TRcatamaran.mp4' | absolute_url }}" type="video/mp4">
+<p><span class="image right" data-sub-html="<h4>The Catamaran</h4><p>Testing the first catamaran prototype</p>"><video controls><source src="{{ 'assets/videos/TRcatamaran270.mp4' | absolute_url }}" type="video/mp4">
                 </video><b>The Catamaran</b> Testing the first catamaran prototype</span><h4>The Catamaran</h4>The catamaran is an approach to achieve a more stable drift and more space for the sensors. More mayyybee yes, but stable drift... OOuups... not yet!</p>
                 
 <p><span class="image left" data-sub-html="<h4>Mr. Turtle #1</h4><p>Smoking motor</p>"><video controls><source src="{{ 'assets/videos/smokingEngine.mp4' | absolute_url }}" type="video/mp4">
