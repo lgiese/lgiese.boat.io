@@ -139,7 +139,7 @@ title: Output Raspberry Pi Camera
 
 <section>
     
-The Raspberry Pi Camera was programmed, that it takes a picture once per minute (see <a href="{{ 'cam_engl.html' | absolute_url }}">Equipment-Cameras</a>). In the end it looks like the following:
+The Raspberry Pi Camera was programmed in a way, that it takes a picture once per minute (see <a href="{{ 'cam_engl.html' | absolute_url }}">Equipment-Cameras</a>). In the end it looks like the following:
     
 <!--style="width: 600px; height: 400px; top: 6px; left: 700px; opacity: 1;" -->
 <!-- Container for the image gallery -->
